@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 using System.Diagnostics;
-using Mono.Options;
-
+using System.Text.RegularExpressions;
 
 namespace StatischeCodeAnalyse
 {
@@ -13,12 +13,34 @@ namespace StatischeCodeAnalyse
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Amount of arguments: " + args.Length);
+            Dictionary<string, string> argDictionary = ArgToDictionary(args);
+            Debug.WriteLine(argDictionary["testName"]);
+        }
 
-            foreach(string a in args) 
+        // Transform received args to a key-value pair. Requires that sent args are in key-value pair format
+        // Example input: testName=testVariable
+        public static Dictionary<string, string> ArgToDictionary(string[] args)
+        {
+            Dictionary<string, string> keyValueTable = new Dictionary<string, string>();
+
+            foreach(string arg in args)
             {
-                Console.WriteLine(a);
+                if (!IsNamed(arg))
+                    continue;
+
+                string[] split = arg.Split('=');
+                keyValueTable.Add(split[0], split[1]);
             }
+
+            return keyValueTable;
+        }
+
+        // Check if the received arg is of correct format to be a key-value pair.
+        public static Boolean IsNamed(string arg)
+        {
+            var searchRegex = new Regex("^(?<key>.*)=(?<value>.*)");
+
+            return searchRegex.IsMatch(arg);
         }
     }
 }
