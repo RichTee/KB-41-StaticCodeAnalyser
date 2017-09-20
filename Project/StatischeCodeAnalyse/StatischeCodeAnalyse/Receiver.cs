@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using StatischeCodeAnalyse.Services;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
@@ -15,6 +12,8 @@ namespace StatischeCodeAnalyse
         {
             Dictionary<string, string> argDictionary = ArgToDictionary(args);
             Debug.WriteLine(argDictionary["testName"]);
+            FileService fileService = new FileService();
+            fileService.CreateCsFile("fileName", "codeContent", "D:/tmp");
         }
 
         // Transform received args to a key-value pair. Requires that sent args are in key-value pair format
