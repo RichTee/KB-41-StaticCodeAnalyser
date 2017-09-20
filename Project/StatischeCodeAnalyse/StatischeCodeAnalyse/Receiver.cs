@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 
@@ -14,7 +13,12 @@ namespace StatischeCodeAnalyse
         public static void Main(string[] args)
         {
             Dictionary<string, string> argDictionary = ArgToDictionary(args);
-            Debug.WriteLine(argDictionary["testName"]);
+            argDictionary = ValidateArgs(argDictionary);
+
+            foreach (string val in argDictionary.Values)
+            {
+                Debug.WriteLine(val);
+            }
         }
 
         // Transform received args to a key-value pair. Requires that sent args are in key-value pair format
@@ -41,6 +45,34 @@ namespace StatischeCodeAnalyse
             var searchRegex = new Regex("^(?<key>.*)=(?<value>.*)");
 
             return searchRegex.IsMatch(arg);
+        }
+
+        public static Dictionary<string, string> ValidateArgs(Dictionary<string, string> argDictionary)
+        {
+            Dictionary<string, string> validatedDictionary = new Dictionary<string, string>();
+            try
+            {
+                ValidateType("code", argDictionary["code"], typeof(string));
+                ValidateType("requirements", argDictionary["requirements"], typeof(string));
+                validatedDictionary.Add("code", argDictionary["code"]);
+                validatedDictionary.Add("requirements", argDictionary["requirements"]);
+            }
+            catch(Exception e)
+            {
+                Debug.Write(e);
+            }
+
+            return validatedDictionary;
+        }
+
+        public static void ValidateType(string key, string val, Type type)
+        {
+            Type typeOfVal = val.GetType();
+            if(typeOfVal != type)
+            {
+                throw new Exception(key + " has to be of type " + type);
+            }
+
         }
     }
 }
