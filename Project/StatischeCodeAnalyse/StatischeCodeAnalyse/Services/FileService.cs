@@ -22,7 +22,7 @@ namespace StatischeCodeAnalyse.Services
                 fs.Write(info, 0, info.Length);
             }
 
-            if (!File.Exists(fileName))
+            if (!File.Exists(fullPath))
                 fullPath = "";
 
             return fullPath;
