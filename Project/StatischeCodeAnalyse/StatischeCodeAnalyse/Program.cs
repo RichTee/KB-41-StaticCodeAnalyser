@@ -12,12 +12,20 @@ namespace StatischeCodeAnalyse
 
         public static void Main(string[] args)
         {
-            Dictionary<string, string> argDictionary = receiverService.ProcessInput(args);
-            string path = fileService.CreateCsFile("fileName", "codeContent", "D:/tmp");
+            try
+            {
+                Dictionary<string, string> argDictionary = receiverService.ProcessInput(args);
+                string path = fileService.CreateCsFile("fileName", "codeContent", "D:/tmp");
 
-            // Make some kind of processor that returns the path of a file.
-            if (string.IsNullOrEmpty(path))
-                throw new Exception("Could not create file");
+                // Make some kind of processor that returns the path of a file.
+                if (string.IsNullOrEmpty(path))
+                    throw new Exception("Could not create file");
+            }
+            catch (Exception exc)
+            {
+
+            }
+
 
         }
     }
