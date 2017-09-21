@@ -30,7 +30,7 @@
     <StartupObject>StatischeCodeAnalyse.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Enums\Receiver.cs" />
+    <Compile Include="Enums\Enums.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Services\ReceiverService.cs" />
     <Compile Include="Services\FileService.cs" />

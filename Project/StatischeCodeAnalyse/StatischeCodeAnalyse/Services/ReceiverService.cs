@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StatischeCodeAnalyse.Validators;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
@@ -7,10 +8,14 @@ namespace StatischeCodeAnalyse.Services
 {
     class ReceiverService
     {
+        private ReceiverValidator receiverValidator = new ReceiverValidator();
+
         // Produces a dictionary with accepted named variables
         public Dictionary<string, string> ProcessInput(string[] args)
         {
             Dictionary<string, string> argDictionary = ArgToDictionary(args);
+            Debug.WriteLine(argDictionary["code"]);
+            Debug.WriteLine(argDictionary["requirements"]);
 
             return argDictionary;
         }
@@ -27,10 +32,14 @@ namespace StatischeCodeAnalyse.Services
                     continue;
 
                 string[] split = arg.Split('=');
+
+                if (!receiverValidator.Validate(split[0]))
+                    continue;
+
                 keyValueTable.Add(split[0], split[1]);
             }
 
-            return ValidateArgs(keyValueTable);
+            return keyValueTable;
         }
 
         // Check if the received arg is of correct format to be a key-value pair.
@@ -39,36 +48,6 @@ namespace StatischeCodeAnalyse.Services
             var searchRegex = new Regex("^(?<key>.*)=(?<value>.*)");
 
             return searchRegex.IsMatch(arg);
-        }
-
-        public Dictionary<string, string> ValidateArgs(Dictionary<string, string> argDictionary)
-        {
-            Dictionary<string, string> validatedDictionary = new Dictionary<string, string>();
-
-            try
-            {
-                ValidateType("code", argDictionary["code"], typeof(string));
-                ValidateType("requirements", argDictionary["requirements"], typeof(string));
-                validatedDictionary.Add("code", argDictionary["code"]);
-                validatedDictionary.Add("requirements", argDictionary["requirements"]);
-            }
-            catch(Exception e)
-            {
-                Debug.Write(e);
-            }
-
-            return validatedDictionary;
-        }
-
-        public void ValidateType(string key, string val, Type type)
-        {
-            Type typeOfVal = val.GetType();
-
-            if(typeOfVal != type)
-            {
-                throw new Exception(key + " has to be of type " + type);
-            }
-
         }
     }
 }
