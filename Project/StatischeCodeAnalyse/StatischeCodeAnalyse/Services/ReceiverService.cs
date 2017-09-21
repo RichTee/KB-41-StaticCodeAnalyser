@@ -1,34 +1,23 @@
-﻿﻿using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-﻿using StatischeCodeAnalyse.Services;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 
-namespace StatischeCodeAnalyse
+namespace StatischeCodeAnalyse.Services
 {
-    class Receiver
+    class ReceiverService
     {
-        public static void Main(string[] args)
+        // Produces a dictionary with accepted named variables
+        public Dictionary<string, string> ProcessInput(string[] args)
         {
             Dictionary<string, string> argDictionary = ArgToDictionary(args);
-            argDictionary = ValidateArgs(argDictionary);
 
-            foreach (string val in argDictionary.Values)
-            {
-                Debug.WriteLine(val);
-            }
-
-            Debug.WriteLine(argDictionary["testName"]);
-            FileService fileService = new FileService();
-            fileService.CreateCsFile("fileName", "codeContent", "D:/tmp");
+            return argDictionary;
         }
 
         // Transform received args to a key-value pair. Requires that sent args are in key-value pair format
         // Example input: testName=testVariable
-        public static Dictionary<string, string> ArgToDictionary(string[] args)
+        public Dictionary<string, string> ArgToDictionary(string[] args)
         {
             Dictionary<string, string> keyValueTable = new Dictionary<string, string>();
 
@@ -41,20 +30,21 @@ namespace StatischeCodeAnalyse
                 keyValueTable.Add(split[0], split[1]);
             }
 
-            return keyValueTable;
+            return ValidateArgs(keyValueTable);
         }
 
         // Check if the received arg is of correct format to be a key-value pair.
-        public static Boolean IsNamed(string arg)
+        public bool IsNamed(string arg)
         {
             var searchRegex = new Regex("^(?<key>.*)=(?<value>.*)");
 
             return searchRegex.IsMatch(arg);
         }
 
-        public static Dictionary<string, string> ValidateArgs(Dictionary<string, string> argDictionary)
+        public Dictionary<string, string> ValidateArgs(Dictionary<string, string> argDictionary)
         {
             Dictionary<string, string> validatedDictionary = new Dictionary<string, string>();
+
             try
             {
                 ValidateType("code", argDictionary["code"], typeof(string));
@@ -70,9 +60,10 @@ namespace StatischeCodeAnalyse
             return validatedDictionary;
         }
 
-        public static void ValidateType(string key, string val, Type type)
+        public void ValidateType(string key, string val, Type type)
         {
             Type typeOfVal = val.GetType();
+
             if(typeOfVal != type)
             {
                 throw new Exception(key + " has to be of type " + type);

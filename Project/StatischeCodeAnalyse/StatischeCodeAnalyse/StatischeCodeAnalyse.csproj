@@ -26,9 +26,16 @@
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>StatischeCodeAnalyse.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Receiver.cs" />
+    <Compile Include="Enums\Receiver.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Services\ReceiverService.cs" />
     <Compile Include="Services\FileService.cs" />
+    <Compile Include="Validators\ReceiverValidator.cs" />
+    <Compile Include="Validators\ValidatorInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
