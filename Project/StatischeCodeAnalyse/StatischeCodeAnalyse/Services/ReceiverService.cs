@@ -40,7 +40,8 @@ namespace StatischeCodeAnalyse.Services
 
                 keyValueTable.Add(split[0], split[1]);
             }
-
+            
+            // TODO: Add check if provided path is valid, otherwise switch to default path.
 			//set default save location if not exist
 			if (!keyValueTable.ContainsKey("savelocation"))
                 keyValueTable.Add("savelocation", Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName + "/tmp");

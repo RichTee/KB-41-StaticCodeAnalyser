@@ -9,5 +9,7 @@ namespace StatischeCodeAnalyse.Validators
     interface ValidatorInterface
     {
         bool Validate(string unvalidated);
+
+        
     }
 }
