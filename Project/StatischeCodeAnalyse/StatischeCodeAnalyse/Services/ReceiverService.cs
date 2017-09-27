@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
+using System.IO;
 
 namespace StatischeCodeAnalyse.Services
 {
@@ -14,8 +15,9 @@ namespace StatischeCodeAnalyse.Services
         public Dictionary<string, string> ProcessInput(string[] args)
         {
             Dictionary<string, string> argDictionary = ArgToDictionary(args);
-            Debug.WriteLine(argDictionary["code"]);
+		    Debug.WriteLine(argDictionary["code"]);
             Debug.WriteLine(argDictionary["requirements"]);
+            Debug.WriteLine(argDictionary["savelocation"]);
 
             return argDictionary;
         }
@@ -38,6 +40,10 @@ namespace StatischeCodeAnalyse.Services
 
                 keyValueTable.Add(split[0], split[1]);
             }
+
+			//set default save location if not exist
+			if (!keyValueTable.ContainsKey("savelocation"))
+                keyValueTable.Add("savelocation", Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName + "/tmp");
 
             return keyValueTable;
         }

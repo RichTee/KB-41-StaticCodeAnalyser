@@ -15,7 +15,7 @@ namespace StatischeCodeAnalyse
             try
             {
                 Dictionary<string, string> argDictionary = receiverService.ProcessInput(args);
-                string path = fileService.CreateCsFile("fileName", "codeContent", "D:/tmp");
+                string path = fileService.CreateCsFile("fileName", argDictionary["code"], argDictionary["savelocation"]);
 
                 // Make some kind of processor that returns the path of a file.
                 if (string.IsNullOrEmpty(path))
@@ -23,7 +23,7 @@ namespace StatischeCodeAnalyse
             }
             catch (Exception exc)
             {
-
+                Debug.WriteLine(exc);
             }
 
 

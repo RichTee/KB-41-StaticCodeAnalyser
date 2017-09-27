@@ -8,6 +8,7 @@
             {
                 case "code":
                 case "requirements":
+                case "savelocation":
                     return true;
                 default:
                     return false;

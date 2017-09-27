@@ -13,6 +13,7 @@ namespace StatischeCodeAnalyse.Services
         // Create a csharp file in given path with given content and filename
         public string CreateCsFile(string fileName, string content, string path)
         {
+            Directory.CreateDirectory(path);
             string fullPath = path + "/" + fileName + ".cs";
 
             using (FileStream fs = File.Create(fullPath))
