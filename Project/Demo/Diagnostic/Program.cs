@@ -53,8 +53,6 @@ namespace ConsoleApplication3
             var parsedSyntaxTree = Parse(source, "", CSharpParseOptions.Default.WithLanguageVersion(LanguageVersion.CSharp6));
             var compilation = CSharpCompilation.Create("Test.dll", new SyntaxTree[] { parsedSyntaxTree }, DefaultReferences, DefaultCompilationOptions);
 
-            Console.WriteLine(System.Reflection.Assembly.GetExecutingAssembly().Location);
-
             foreach(var diag in compilation.GetDiagnostics())
             {
                 Console.WriteLine(diag);
