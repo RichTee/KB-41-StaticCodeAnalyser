@@ -29,10 +29,13 @@ namespace ConsoleApplication3
         {
             var source = @"namespace ConsoleApplication3
 {
-    public class Output { public static void Main() { } }
+    public class Output { public statitc void Main() { } }
 }
 ";
+            // https://docs.microsoft.com/en-us/roslyn-dotnet-api/api/microsoft.codeanalysis.csharp.csharpsyntaxtree?view=codeanalysiscs-2.3.1
             var parsedSyntaxTree = CSharpSyntaxTree.ParseText(source);
+
+            // https://docs.microsoft.com/en-us/roslyn-dotnet-api/api/microsoft.codeanalysis.csharp.csharpcompilation?view=codeanalysiscs-2.3.1
             var compilation = CSharpCompilation.Create(Path.GetRandomFileName(), new SyntaxTree[] { parsedSyntaxTree }, references, DefaultCompilationOptions);
 
             using (var ms = new MemoryStream())
