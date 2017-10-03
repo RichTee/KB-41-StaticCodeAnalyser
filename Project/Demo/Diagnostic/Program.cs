@@ -8,43 +8,22 @@ using Microsoft.CodeAnalysis.CSharp.Symbols;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Text;
 using System.IO;
+using Microsoft.CodeAnalysis.Emit;
 
 namespace ConsoleApplication3
 {
     class Program
     {
-        private static readonly IEnumerable<string> DefaultNamespaces =
-            new[]
-            {
-                "System",
-                "System.IO",
-                "System.Net",
-                "System.Linq",
-                "System.Text",
-                "System.Text.RegularExpressions",
-                "System.Collections.Generic"
-            };
+        private static MetadataReference[] references = new MetadataReference[]
+        {
+            MetadataReference.CreateFromFile(typeof(object).Assembly.Location),
+            MetadataReference.CreateFromFile(typeof(Enumerable).Assembly.Location)
+        };
 
-        private static string runtimePath = @"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\{0}.dll";
-
-        private static readonly IEnumerable<MetadataReference> DefaultReferences =
-            new[]
-            {
-                MetadataReference.CreateFromFile(string.Format(runtimePath, "mscorlib")),
-                MetadataReference.CreateFromFile(string.Format(runtimePath, "System")),
-                MetadataReference.CreateFromFile(string.Format(runtimePath, "System.Core"))
-            };
 
         private static readonly CSharpCompilationOptions DefaultCompilationOptions =
             new CSharpCompilationOptions(OutputKind.DynamicallyLinkedLibrary)
-                    .WithOverflowChecks(true).WithOptimizationLevel(OptimizationLevel.Release)
-                    .WithUsings(DefaultNamespaces);
-
-        public static SyntaxTree Parse(string text, string filename = "", CSharpParseOptions options = null)
-        {
-            var stringText = SourceText.From(text, Encoding.UTF8);
-            return SyntaxFactory.ParseSyntaxTree(stringText, options, filename);
-        }
+                    .WithOverflowChecks(true).WithOptimizationLevel(OptimizationLevel.Release);
 
         static void Main(string[] args)
         {
@@ -53,12 +32,26 @@ namespace ConsoleApplication3
     public class Output { public statict void Main() { } }
 }
 ";
-            var parsedSyntaxTree = Parse(source, "", CSharpParseOptions.Default.WithLanguageVersion(LanguageVersion.CSharp6));
-            var compilation = CSharpCompilation.Create("Test.dll", new SyntaxTree[] { parsedSyntaxTree }, DefaultReferences, DefaultCompilationOptions);
+            var parsedSyntaxTree = CSharpSyntaxTree.ParseText(source);
+            var compilation = CSharpCompilation.Create("Test.dll", new SyntaxTree[] { parsedSyntaxTree }, references, DefaultCompilationOptions);
 
-            foreach(var diag in compilation.GetDiagnostics())
+            using (var ms = new MemoryStream())
             {
-                Console.WriteLine(diag);
+                EmitResult result = compilation.Emit(ms);
+
+                if (!result.Success)
+                {
+                    IEnumerable<Diagnostic> failures = result.Diagnostics.Where(diagnostic => diagnostic.Severity == DiagnosticSeverity.Error);
+
+                    foreach (var diag in failures)
+                    {
+                        Console.Error.WriteLine("{0}: {1}", diag.Id, diag.GetMessage());
+                    }
+                }
+                else
+                {
+                    Console.Error.WriteLine("Failed");
+                }
             }
 
             Console.Read();
