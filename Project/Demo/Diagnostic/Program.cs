@@ -33,7 +33,7 @@ namespace ConsoleApplication3
 }
 ";
             var parsedSyntaxTree = CSharpSyntaxTree.ParseText(source);
-            var compilation = CSharpCompilation.Create("Test.dll", new SyntaxTree[] { parsedSyntaxTree }, references, DefaultCompilationOptions);
+            var compilation = CSharpCompilation.Create(Path.GetRandomFileName(), new SyntaxTree[] { parsedSyntaxTree }, references, DefaultCompilationOptions);
 
             using (var ms = new MemoryStream())
             {
