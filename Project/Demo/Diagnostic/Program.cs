@@ -48,8 +48,11 @@ namespace ConsoleApplication3
 
         static void Main(string[] args)
         {
-            var fileToCompile = @"c:\users\hans\documents\visual studio 2015\Projects\ConsoleApplication3\test.cs";
-            var source = File.ReadAllText(fileToCompile);
+            var source = @"namespace ConsoleApplication3
+{
+    public class Output { public statict void Main() { } }
+}
+";
             var parsedSyntaxTree = Parse(source, "", CSharpParseOptions.Default.WithLanguageVersion(LanguageVersion.CSharp6));
             var compilation = CSharpCompilation.Create("Test.dll", new SyntaxTree[] { parsedSyntaxTree }, DefaultReferences, DefaultCompilationOptions);
 
