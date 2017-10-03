@@ -29,7 +29,7 @@ namespace ConsoleApplication3
         {
             var source = @"namespace ConsoleApplication3
 {
-    public class Output { public statict void Main() { } }
+    public class Output { public static void Main() { } }
 }
 ";
             var parsedSyntaxTree = CSharpSyntaxTree.ParseText(source);
@@ -50,7 +50,7 @@ namespace ConsoleApplication3
                 }
                 else
                 {
-                    Console.Error.WriteLine("Failed");
+                    Console.WriteLine("Success");
                 }
             }
 
