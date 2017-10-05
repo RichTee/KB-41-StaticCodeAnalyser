@@ -16,9 +16,9 @@ namespace StatischeCodeAnalyse.Services
         public string[] ProcessRequirements(string requirements)
         {
             dynamic json = JsonConvert.DeserializeObject(requirements);
-            string[] analyserRules = null;
-
-            return analyserRules;
+            // TODO: Process the Requirements for validity (expected format) and make it a variable that can be used by the analyzer
+            // Does not have to be string array
+            return new String[1];
         }
     }
 }
