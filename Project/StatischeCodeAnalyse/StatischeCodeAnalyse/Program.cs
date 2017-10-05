@@ -31,10 +31,12 @@ namespace StatischeCodeAnalyse
 
                 // Compile the code and try to analyze for requirements
                 string[] analysis = analyseService.CompileAndAnalyze(argDictionary["code"], requirements);
+                Console.WriteLine(analysis);
                 Console.WriteLine(JsonConvert.SerializeObject(responseService.Success(JsonConvert.SerializeObject(analysis))));
             }
             catch (Exception exc)
             {
+                Console.WriteLine(exc);
                 Console.WriteLine(JsonConvert.SerializeObject(responseService.CustomError(Enums.StatusCode.EXCEPTION, exc.Message)));
             }
 

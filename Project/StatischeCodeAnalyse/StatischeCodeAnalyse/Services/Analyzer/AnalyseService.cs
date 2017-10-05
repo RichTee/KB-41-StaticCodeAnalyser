@@ -15,7 +15,7 @@ namespace StatischeCodeAnalyse.Services.Analyzer
         {
             string[] compiledDiagnostics = compilerService.CompileAndGetDiagnostic(sourceCode);
             string[] analyzedResult = Analyze(sourceCode, requirements);
-            return new String[1];
+            return compiledDiagnostics;
         }
 
         private string[] Analyze(string sourceCode, string[] requirements)
