@@ -15,16 +15,16 @@ namespace StatischeCodeAnalyse.Services
         public Dictionary<string, string> ProcessInput(string[] args)
         {
             Dictionary<string, string> argDictionary = ArgToDictionary(args);
-		    Debug.WriteLine(argDictionary["code"]);
-            Debug.WriteLine(argDictionary["requirements"]);
-            Debug.WriteLine(argDictionary["savelocation"]);
-
+            receiverValidator.IsRequired(argDictionary);
+		    Console.WriteLine(argDictionary["code"]);
+            Console.WriteLine(argDictionary["requirements"]);
+            Console.WriteLine(argDictionary["savelocation"]);
             return argDictionary;
         }
 
         // Transform received args to a key-value pair. Requires that sent args are in key-value pair format
         // Example input: testName=testVariable
-        public Dictionary<string, string> ArgToDictionary(string[] args)
+        private Dictionary<string, string> ArgToDictionary(string[] args)
         {
             Dictionary<string, string> keyValueTable = new Dictionary<string, string>();
 
@@ -40,7 +40,8 @@ namespace StatischeCodeAnalyse.Services
 
                 keyValueTable.Add(split[0], split[1]);
             }
-
+            
+            // TODO: Add check if provided path is valid, otherwise switch to default path.
 			//set default save location if not exist
 			if (!keyValueTable.ContainsKey("savelocation"))
                 keyValueTable.Add("savelocation", Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName + "/tmp");
@@ -49,7 +50,7 @@ namespace StatischeCodeAnalyse.Services
         }
 
         // Check if the received arg is of correct format to be a key-value pair.
-        public bool IsNamed(string arg)
+        private bool IsNamed(string arg)
         {
             var searchRegex = new Regex("^(?<key>.*)=(?<value>.*)");
 
