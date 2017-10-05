@@ -9,7 +9,8 @@ namespace StatischeCodeAnalyse.Validators
     interface ValidatorInterface
     {
         bool Validate(string unvalidated);
-
+        void IsRequired(string[] required);
+        void IsRequired(Dictionary<string, string> required);
         
     }
 }

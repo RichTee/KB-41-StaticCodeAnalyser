@@ -9,7 +9,8 @@ namespace StatischeCodeAnalyse.Enums
     enum ProgramInput
     {
         INPUT_SOURCE_CODE   = 1,
-        INPUT_REQUIREMENTS  = 2
+        INPUT_REQUIREMENTS  = 2,
+        INPUT_SAVELOCATION  = 3
     }
 
     enum StatusCode

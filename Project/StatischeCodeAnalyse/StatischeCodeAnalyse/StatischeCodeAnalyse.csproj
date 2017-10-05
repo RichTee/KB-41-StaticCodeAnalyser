@@ -31,13 +31,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Enums\Enums.cs" />
+    <Compile Include="Exceptions\InputException.cs" />
     <Compile Include="Models\Response.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Services\ReceiverService.cs" />
     <Compile Include="Services\FileService.cs" />
     <Compile Include="Services\RequirementService.cs" />
     <Compile Include="Services\ResponseService.cs" />
-    <Compile Include="Services\RuleService.cs" />
     <Compile Include="Validators\ReceiverValidator.cs" />
     <Compile Include="Validators\RequirementValidator.cs" />
     <Compile Include="Validators\ValidatorInterface.cs" />
@@ -129,8 +129,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Exception\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
