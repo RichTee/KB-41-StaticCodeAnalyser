@@ -11,6 +11,7 @@
 *.userprefs
 
 .DS_Store
+Project/StatischeCodeAnalyse/tmp/
 
 # Build results
 [Dd]ebug/
