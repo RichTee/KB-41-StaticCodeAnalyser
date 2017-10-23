@@ -1,0 +1,3026 @@
+WeekOfCode_Opdrachten(JSON).txt
+DETAILS
+ACTIVITEIT
+WeekOfCode_Opdrachten(JSON).txt
+Info over delen
+
+Algemene informatie
+Type
+Tekst
+Grootte130 KB (132.875 bytes)
+Gebruikte opslagruimte130 KB (132.875 bytes)
+Locatie
+Casus
+Eigenaar
+ik
+Gewijzigd op7 sep.2017 door mij
+Geopend op12: 08 door mij
+Gemaakt op7 sep.2017
+Beschrijving
+Voeg een beschrijving toe
+Toestemming voor downloaden
+Kijkers kunnen downloaden
+
+Ontvang meldingen op je computer over gedeelde bestanden en belangrijke gebeurtenissen.
+INSCHAKELEN[
+    {
+        "number": 1,
+        "category": "Output",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Schrijf een programma dat op het scherm de tekst: 'Week of Code rocks!' afdrukt.",
+        "requirements": "nvt",
+        "skeleton": "public class Output\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "u2Hu279Rdcg"
+    },
+    {
+        "number": 2,
+        "category": "Output",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Schrijf een programma dat op het scherm de tekst 'Ik ben springerig' afdrukt, waarbij ieder woord op een eigen regel staat.",
+        "requirements": "nvt",
+        "skeleton": "public class Output\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "u2Hu279Rdcg"
+    },
+    {
+        "number": 3,
+        "category": "Output",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Schrijf een programma dat op het scherm de tekst 'Ik doe extra werk' afdrukt.",
+        "requirements": "Gebruik per woord een eigen regel code.",
+        "skeleton": "public class Output\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "u2Hu279Rdcg"
+    },
+    {
+        "number": 4,
+        "category": "Output",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Schrijf een programma dat op het scherm de tekst 'Twee regels' afdrukt, waarbij ieder woord op een eigen regel staat.",
+        "requirements": "Gebruik 1 regel code",
+        "skeleton": "public class Output\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "u2Hu279Rdcg"
+    },
+    {
+        "number": 5,
+        "category": "Output",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Schrijf een programma dat op het scherm de tekst 'Tabbladen zijn gaaf' afdrukt, waarbij ieder woord gescheiden is door een tab.",
+        "requirements": "nvt",
+        "skeleton": "public class Output\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "u2Hu279Rdcg"
+    },
+    {
+        "number": 6,
+        "category": "Output",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Schrijf een programma dat op het scherm de tekst 'Kijk mama, zonder gegeven code!' afdrukt.",
+        "requirements": "nvt",
+        "skeleton": "",
+        "video": "u2Hu279Rdcg"
+    },
+    {
+        "number": 7,
+        "category": "Output",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Druk op het scherm af: 'Ik verzamel vandaag de meeste achievements'. Elk woord staat op een eigen regel.",
+        "requirements": "Gebruik om de beurt write en writeline.",
+        "skeleton": "public class Output\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "u2Hu279Rdcg"
+    },
+    {
+        "number": 8,
+        "category": "Output",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Druk op 1 regel de tekst 'tab, tab, tab, die mooie tab van goud.' af, gescheiden door tabs.",
+        "requirements": "Elke '\\t' staat op een eigen regel.",
+        "skeleton": "public class Output\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "u2Hu279Rdcg"
+    },
+    {
+        "number": 9,
+        "category": "Output",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Druk onder elkaar de woorden 'één' tot en met 'tien' af.",
+        "requirements": "Gebruik enkel write.",
+        "skeleton": "public class Output\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "u2Hu279Rdcg"
+    },
+    {
+        "number": 10,
+        "category": "Output",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "'Ik hou van witregels' komt op het scherm, waarbij ieder woord op een eigen regel staat, met witregels ertussen.",
+        "requirements": "Gebruik geen '\\n'",
+        "skeleton": "public class Output\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "u2Hu279Rdcg"
+    },
+    {
+        "number": 11,
+        "category": "Output",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Op het scherm komt de tekst: 'C# is beter dan Java'.Alle woorden zijn gescheiden door tabs.",
+        "requirements": "Gebruik enkel writeline.",
+        "skeleton": "",
+        "video": "u2Hu279Rdcg"
+    },
+    {
+        "number": 12,
+        "category": "Output",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Op het scherm verschijnt de tekst 'all your base are belong to us'. Ieder woord staat op een eigen regel en springt verder in.",
+        "requirements": "Gebruik maximaal 1 keer '\\t' en maximaal 1 keer '\\n'.",
+        "skeleton": "",
+        "video": "u2Hu279Rdcg"
+    },
+    {
+        "number": 13,
+        "category": "Output",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Schrijf een programma dat op het scherm de tekst 'Programmeren is echt cool' afdrukt. Elk woord staat op een eigen regel en tussen de regels staat een witregel.",
+        "requirements": "Gebruik maximaal 5 regels en maximaal 2 keer '\\n'.",
+        "skeleton": "",
+        "video": "u2Hu279Rdcg"
+    },
+    {
+        "number": 14,
+        "category": "Output",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Druk op het scherm de volgende tekst af: 'Een, twee, drie, vier, hoedje van, hoedje van, een twee, drie, vier, hoedje van papier'. Elk woord staat op een eigen regel. Na elke woord spring je verder in. Na 4 woorden verandert de richting (dus van verder, naar minder ver inspringen of andersom).",
+        "requirements": "Gebruik 1 regel code.",
+        "skeleton": "",
+        "video": "u2Hu279Rdcg"
+    },
+    {
+        "number": 15,
+        "category": "Output",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "1 Festival muntje kost 2,30. Druk op het scherm een tabel af waarin je aangeeft hoe duur 1 t/m 10 muntjes zijn. Natuurlijk is de eerste regel een kopregel en de tweede een scheidingslijn (meerdere '-').",
+        "requirements": "nvt",
+        "skeleton": "",
+        "video": "u2Hu279Rdcg"
+    },
+    {
+        "number": 16,
+        "category": "Variabelen",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Ken de waarden volgende waarden toe aan de het juiste type variabele. De naam mag je zelf kiezen.\n1\ntrue\n3,678",
+        "requirements": "nvt",
+        "skeleton": "public class Vars\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "zkxLwuX1fXg"
+    },
+    {
+        "number": 17,
+        "category": "Variabelen",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Ken de waarden volgende waarden toe aan de het juiste type variabele. De naam mag je zelf kiezen.\nfalse\n6,54\n\"Apenbal\"",
+        "requirements": "nvt",
+        "skeleton": "public class Vars\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "zkxLwuX1fXg"
+    },
+    {
+        "number": 18,
+        "category": "Variabelen",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Ken de waarden volgende waarden toe aan de het juiste type variabele. De naam mag je zelf kiezen.\n\"1,43\"\n10010100\n38981928",
+        "requirements": "nvt",
+        "skeleton": "public class Vars\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "zkxLwuX1fXg"
+    },
+    {
+        "number": 19,
+        "category": "Variabelen",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Sla de wortel van 8 op in een variabele. Je mag de waarde opzoeken.",
+        "requirements": "nvt",
+        "skeleton": "public class Vars\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "zkxLwuX1fXg"
+    },
+    {
+        "number": 20,
+        "category": "Variabelen",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Maak een variabele die bijhoudt hoe oud iemand is, of zijn / haar ouders mee zijn en of hij /zij het zwembad in mag.",
+        "requirements": "nvt",
+        "skeleton": "public class Vars\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "zkxLwuX1fXg"
+    },
+    {
+        "number": 21,
+        "category": "Variabelen",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Je hebt twee variabelen met een geheel getal (bijvoorbeeld 3 en 10). Wissel waarden van deze variabelen om. wat je programmeert moet werken bij elke inhoud van de variabelen.",
+        "requirements": "nvt",
+        "skeleton": "public class Vars\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "zkxLwuX1fXg"
+    },
+    {
+        "number": 22,
+        "category": "Variabelen",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Maak een variabele waarin je de waarde van drie andere variabelen opgeteld worden. De eerste drie variabelen zijn 1 geheel getal en 2 komma-getallen.",
+        "requirements": "nvt",
+        "skeleton": "public class Vars\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "zkxLwuX1fXg"
+    },
+    {
+        "number": 23,
+        "category": "Variabelen",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Maak 3 variabelen (x,y,z) voor gehele getallen. Sla op in a:\nx-(y+z)",
+        "requirements": "Gebruik geen haakjes",
+        "skeleton": "public class Vars\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "zkxLwuX1fXg"
+    },
+    {
+        "number": 24,
+        "category": "Variabelen",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Gebruik een variabele om bij te houden of iemand oud genoeg is. Druk deze af op het scherm. Sla de waarde ook op in een int.",
+        "requirements": "nvt",
+        "skeleton": "public class Vars\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "zkxLwuX1fXg"
+    },
+    {
+        "number": 25,
+        "category": "Variabelen",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Zorg ervoor dat het juiste getal in de juist variabele komt.",
+        "requirements": "Gebruik geen getallen. Gebruik maximaal 1 hulpvariabele. Gebruik maximaal vijf statements.",
+        "skeleton": "public class Vars\n{\n   public static void Main()\n   {\n       int een=4;\n       int twee=1;\n       int drie=2;\n       int vier=3;\n       //hier code\n   }\n}",
+        "video": "zkxLwuX1fXg"
+    },
+    {
+        "number": 26,
+        "category": "Variabelen",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Je hebt twee variabelen met een geheel getal (bijvoorbeeld 3 en 10). Wissel waarden van deze variabelen om. wat je programmeert moet werken bij elke inhoud van de variabelen.",
+        "requirements": "Je mag geen gebruik maken van extra variabelen.",
+        "skeleton": "public class Vars\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "zkxLwuX1fXg"
+    },
+    {
+        "number": 27,
+        "category": "Variabelen",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Zorg ervoor dat het juiste getal in de juist variabele komt.",
+        "requirements": "Gebruik geen getallen. Gebruik geen hulpvariabelen.",
+        "skeleton": "public class Vars\n{\n   public static void Main()\n   {\n      int acht = 8;\n      int negen = 10;\n      int elf = 9\n      int tien = 12;\n      int twaalf = 10;\n   }\n}",
+        "video": "zkxLwuX1fXg"
+    },
+    {
+        "number": 28,
+        "category": "Variabelen",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Ga nog eens terug naar opdracht 24. Er zijn twee variabelen die aangeven of je ouder dan 12 bent en of je langer dan 1,20m bent. Sla in een derde variabele of of je voorin de auto mag zitten. (dat mag als beide voorgaande stellingen waar zijn).",
+        "requirements": "nvt",
+        "skeleton": "public class Vars\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "zkxLwuX1fXg"
+    },
+    {
+        "number": 29,
+        "category": "Variabelen",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Druk een variabele af op het scherm. In die variabele zit:\n        ik\n    ben\n        helemaal\ngek\n\n        geworden",
+        "requirements": "nvt",
+        "skeleton": "public class Vars\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "zkxLwuX1fXg"
+    },
+    {
+        "number": 30,
+        "category": "Variabelen",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Bekijk de volgende bekende puzzel:\nEen man heeft een wolf, een geit en een kool. Hij moet een rivier oversteken met de twee dieren en de kool. Er is een kleine roeiboot waarin hij slechts één ding tegelijk kan meenemen. Echter, als de wolf en de geit alleen gelaten worden, eet de wolf de geit op. Als de geit en de kool alleen gelaten worden, eet de geit de kool op.\nMaak in de code een set variabelen waarmee je deze puzzel kan representeren.",
+        "requirements": "nvt",
+        "skeleton": "public class Vars\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "zkxLwuX1fXg"
+    },
+    {
+        "number": 31,
+        "category": "Input",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Schrijf een programma dat twee multiple choice vragen afdrukt en het antwoord op beide inleest.",
+        "requirements": "nvt (Gebruikers input kan niet getest worden in Genius@Work)",
+        "skeleton": "public class Input\n{\n   public static void Main()\n   {\n      \n   }\n}   ",
+        "video": "pWQaJl4W1Eg"
+    },
+    {
+        "number": 32,
+        "category": "Input",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Schrijf een programma dat een voornaam, achternaam en postcode inleest. Druk zelf ook de vragen af.",
+        "requirements": "nvt (Gebruikers input kan niet getest worden in Genius@Work)",
+        "skeleton": "public class Input\n{\n   public static void Main()\n   {\n      \n   }\n}   ",
+        "video": "pWQaJl4W1Eg"
+    },
+    {
+        "number": 33,
+        "category": "Input",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Breidt het vorige programma uit zodat ook een huisnummer, gewicht en inkomen (in euro's) wordt opgevraagd.",
+        "requirements": "nvt (Gebruikers input kan niet getest worden in Genius@Work)",
+        "skeleton": "public class Input\n{\n   public static void Main()\n   {\n      \n   }\n}   ",
+        "video": "pWQaJl4W1Eg"
+    },
+    {
+        "number": 34,
+        "category": "Input",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Vraag de gebruikers twee gehele getallen in te typen. Wissel deze om en druk ze weer af met begeleidende tekst.",
+        "requirements": "nvt (Gebruikers input kan niet getest worden in Genius@Work)",
+        "skeleton": "public class Input\n{\n   public static void Main()\n   {\n      \n   }\n}   ",
+        "video": "pWQaJl4W1Eg"
+    },
+    {
+        "number": 35,
+        "category": "Input",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Vraag de gebruiker twee getallen (evt kommagetallen) in te lezen. Druk de som ervan af op het scherm.",
+        "requirements": "nvt (Gebruikers input kan niet getest worden in Genius@Work)",
+        "skeleton": "public class Input\n{\n   public static void Main()\n   {\n      \n   }\n}   ",
+        "video": "pWQaJl4W1Eg"
+    },
+    {
+        "number": 36,
+        "category": "Input",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Vraag de gebruiker of hij /zij al 18 is en of hij / zij gedronken heeft.\nSla deze informatie op in een boolean.",
+        "requirements": "nvt (Gebruikers input kan niet getest worden in Genius@Work)",
+        "skeleton": "public class Input\n{\n   public static void Main()\n   {\n      \n   }\n}   ",
+        "video": "pWQaJl4W1Eg"
+    },
+    {
+        "number": 37,
+        "category": "Input",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "De gebruiker vult een tekst in en een auteur. Op het scherm komt de tekst:\n\"Uw favoriete gedicht is: {hier de tekst van de gebruiker}, maar ik hou van niet van {auteur van de gebruiker}\"",
+        "requirements": "nvt (Gebruikers input kan niet getest worden in Genius@Work)",
+        "skeleton": "public class Input\n{\n   public static void Main()\n   {\n      \n   }\n}   ",
+        "video": "pWQaJl4W1Eg"
+    },
+    {
+        "number": 38,
+        "category": "Input",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Lees van de gebruiker in welke vraag hij / zij graag wil beantwoorden. Druk op het scherm af:\n\"Geef het antwoord op vraag {ingevulde vraag}.\" Het antwoord op de vraag is een getal.\nTel de vraag en het antwoord op en druk op het scherm af:\n\"u gaf op vraag {vraag van gebruiker} niet het antwoord {resultaat van jouw som}. Gelukkig maar!\"",
+        "requirements": "nvt (Gebruikers input kan niet getest worden in Genius@Work)",
+        "skeleton": "public class Input\n{\n   public static void Main()\n   {\n      \n   }\n}   ",
+        "video": "pWQaJl4W1Eg"
+    },
+    {
+        "number": 39,
+        "category": "Input",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Lees één voor één de letters in van een door de gebruiker ingevuld woord (precies 5 letters). Druk ze af gescheiden door spaties en op de volgende regel omgekeerd en gescheiden door komma's.",
+        "requirements": "nvt (Gebruikers input kan niet getest worden in Genius@Work)",
+        "skeleton": "public class Input\n{\n   public static void Main()\n   {\n      \n   }\n}   ",
+        "video": "pWQaJl4W1Eg"
+    },
+    {
+        "number": 40,
+        "category": "Input",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "De gebruiker vult een getal tussen de 100 en 500 in. Druk de som van de cijfers in dat getal af op het scherm.",
+        "requirements": "nvt (Gebruikers input kan niet getest worden in Genius@Work)",
+        "skeleton": "public class Input\n{\n   public static void Main()\n   {\n      \n   }\n}   ",
+        "video": "pWQaJl4W1Eg"
+    },
+    {
+        "number": 41,
+        "category": "Input",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Lees van de gebruiker een komma getal in. Vraag op een inventieve manier ook of hij het getal wil afronden.\nDruk het getal al dan niet afgerond af.",
+        "requirements": "nvt (Gebruikers input kan niet getest worden in Genius@Work)",
+        "skeleton": "public class Input\n{\n   public static void Main()\n   {\n      \n   }\n}   ",
+        "video": "pWQaJl4W1Eg"
+    },
+    {
+        "number": 42,
+        "category": "Input",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Stel de gebruiker 3 vragen. Na elke vraag heeft de gebruiker koffiepauze dus stel de volgende vraag pas weer als de gebruiker op een pijltjestoets drukt.",
+        "requirements": "nvt (Gebruikers input kan niet getest worden in Genius@Work)",
+        "skeleton": "public class Input\n{\n   public static void Main()\n   {\n      \n   }\n}   ",
+        "video": "pWQaJl4W1Eg"
+    },
+    {
+        "number": 43,
+        "category": "Input",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "De gebruiker vult exact in\"Koekje van eigen deeg\".\nDruk deze tekst meteen weer voor hem af, maar in plaats van spaties staan er tabs.",
+        "requirements": "nvt (Gebruikers input kan niet getest worden in Genius@Work)",
+        "skeleton": "public class Input\n{\n   public static void Main()\n   {\n      \n   }\n}   ",
+        "video": "pWQaJl4W1Eg"
+    },
+    {
+        "number": 44,
+        "category": "Input",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Laat de gebruiker twee getallen invullen. Druk op het scherm een 1 af als er meer dan 1 0 ingevuld is. Anders een 2.",
+        "requirements": "nvt (Gebruikers input kan niet getest worden in Genius@Work)",
+        "skeleton": "public class Input\n{\n   public static void Main()\n   {\n      \n   }\n}   ",
+        "video": "pWQaJl4W1Eg"
+    },
+    {
+        "number": 45,
+        "category": "Input",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "De gebruiker vult een scheidingsteken in. Daarna geeft de gebruiker een 5-letter woord. Druk dat woord omgekeerd af gescheiden door het scheidingsteken.",
+        "requirements": "nvt (Gebruikers input kan niet getest worden in Genius@Work)",
+        "skeleton": "public class Input\n{\n   public static void Main()\n   {\n      \n   }\n}   ",
+        "video": "pWQaJl4W1Eg"
+    },
+    {
+        "number": 46,
+        "category": "Casting",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Cast float naar int.",
+        "requirements": "Pas de regel niet aan, maar doe de cast op een nieuwe regel met een nieuwe int variabele",
+        "skeleton": "public class Casting\n{\n\tpublic static void Main()\n\t{\n        float damage = 231.99f;\n\t}\n}",
+        "video": "zfT5C-dJOUE"
+    },
+    {
+        "number": 47,
+        "category": "Casting",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Zorg ervoor dat de gegeven code werkt.",
+        "requirements": "Gebruik hiervoor niks anders dan casting.",
+        "skeleton": "public class Casting\n{\n\tpublic static void Main()\n\t{\n        int a = 5; \n        int b = 2; \n        float c = a / b; //FIXME: This calculation is incorrect\n\t}\n}",
+        "video": "zfT5C-dJOUE"
+    },
+    {
+        "number": 48,
+        "category": "Casting",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Cast \"int answer = 42\" naar een double.",
+        "requirements": "Pas de regel \"int answer = 42\" niet aan, maar cast hem op de regel eronder naar een nieuwe double",
+        "skeleton": "public class Casting\n{\n\tpublic static void Main()\n\t{\n        int answer = 42;\n\t}\n}",
+        "video": "zfT5C-dJOUE"
+    },
+    {
+        "number": 49,
+        "category": "Casting",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Cast char naar int.",
+        "requirements": "Pas de regel niet aan, maar doe de cast op een nieuwe regel met een nieuwe int variabele",
+        "skeleton": "public class Casting\n{\n\tpublic static void Main()\n\t{\n        char firstLetter = 'a';\n\t}\n}",
+        "video": "zfT5C-dJOUE"
+    },
+    {
+        "number": 50,
+        "category": "Casting",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Cast int naar char.",
+        "requirements": "Weer op een nieuwe regel, code alleen uitbreiden met een nieuwe int variabele.",
+        "skeleton": "public class Casting\n{\n\tpublic static void Main()\n\t{\n        int b = 98;\n\t}\n}",
+        "video": "zfT5C-dJOUE"
+    },
+    {
+        "number": 51,
+        "category": "Casting",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Cast string naar een double.",
+        "requirements": "Nieuwe regel voor de cast",
+        "skeleton": "public class Casting\n{\n\tpublic static void Main()\n\t{\n        string price = \"12,95\";\n\t}\n}",
+        "video": "zfT5C-dJOUE"
+    },
+    {
+        "number": 52,
+        "category": "Casting",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Cast bool naar string.",
+        "requirements": "Nieuwe regel voor de cast",
+        "skeleton": "public class Casting\n{\n\tpublic static void Main()\n\t{\n        bool won = true;\n\t}\n}",
+        "video": "zfT5C-dJOUE"
+    },
+    {
+        "number": 53,
+        "category": "Casting",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Gebruik Parse om \"unsigned long copper = 87253321654\" te casten naar een int\n",
+        "requirements": "Maak gebruik van Parse en niet van een naieve cast",
+        "skeleton": "public class Casting\n{\n\tpublic static void Main()\n\t{\n        unsigned long copper = 87253321654;\n\t}\n}",
+        "video": "Casting"
+    },
+    {
+        "number": 54,
+        "category": "Casting",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Cast binair naar string.",
+        "requirements": "Cast op nieuwe regel",
+        "skeleton": "public class Casting\n{\n\tpublic static void Main()\n\t{\n        int binary = 0b101010; //Binary notation\n\t}\n}",
+        "video": "zfT5C-dJOUE"
+    },
+    {
+        "number": 55,
+        "category": "Casting",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Cast 10101 naar een int.",
+        "requirements": "Cast op een nieuwe regel",
+        "skeleton": "public class Casting\n{\n\tpublic static void Main()\n\t{\n        int palindrome = 10101;\n\t}\n}",
+        "video": "zfT5C-dJOUE"
+    },
+    {
+        "number": 56,
+        "category": "Casting",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Check of Warrior Henk een Entity is.",
+        "requirements": "Vul the code voor de if in",
+        "skeleton": "public class Entity\n{\n    \n}\n\npublic class Warrior : Entity\n{\n    \n}\n\npublic class Casting\n{\n\tpublic static void Main()\n\t{\n        Warrior Henk = new Warrior();\n        \n        if(...) //FIXME: Do smart stuff here\n            System.Console.WriteLine(\"Henk de Warrior is een entity :)\");\n        else\n            System.Console.WriteLine(\"Henk de Warrior is helemaal geen entity :(\");\n\t}\n}",
+        "video": "zfT5C-dJOUE"
+    },
+    {
+        "number": 57,
+        "category": "Casting",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Cast Piet naar een Entity",
+        "requirements": "Nieuwe regel voor de cast",
+        "skeleton": "public class Entity\n{\n    \n}\n\npublic class Mage : Entity\n{\n    \n}\n\npublic class Casting\n{\n\tpublic static void Main()\n\t{\n        Mage Piet = new Mage(); //Piet the mighty mage!! OMG\n\t}\n}",
+        "video": "zfT5C-dJOUE"
+    },
+    {
+        "number": 58,
+        "category": "Casting",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Cast string naar bool.",
+        "requirements": "Nieuwe regel voor de cast",
+        "skeleton": "public class Casting\n{\n\tpublic static void Main()\n\t{\n        string enemyIsDead = \"true\";\n\t}\n}",
+        "video": "zfT5C-dJOUE"
+    },
+    {
+        "number": 59,
+        "category": "Casting",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Cast nullable int naar long.",
+        "requirements": "Nieuwe regel voor de cast",
+        "skeleton": "public class Casting\n{\n\tpublic static void Main()\n\t{\n        int? veryHard = null;\n\t}\n}",
+        "video": "zfT5C-dJOUE"
+    },
+    {
+        "number": 60,
+        "category": "Casting",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Check of HugeWarrior Henk ook een Entity is.",
+        "requirements": "Vul de code voor de if in",
+        "skeleton": "public class Entity\n{\n    \n}\n\npublic class Warrior : Entity\n{\n    \n}\n\npublic class HugeWarrior : Warrior\n{\n    \n}\n\npublic class Casting\n{\n\tpublic static void Main()\n\t{\n        Warrior Henk = new Warrior();\n        \n        if(...) //FIXME: Do smart stuff here\n            System.Console.WriteLine(\"Henk de HugeWarrior is nog steeds een entity :)\");\n        else\n            System.Console.WriteLine(\"Henk de HugeWarrior is helemaal geen entity :(\");\n\t}\n}",
+        "video": "zfT5C-dJOUE"
+    },
+    {
+        "number": 61,
+        "category": "String manipulatie",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Scrijf met string concatenatie \"Hello World\", bestaande uit de string \"Hello\" en \"World\"",
+        "requirements": "nvt",
+        "skeleton": "public class Strings\n{\n\tpublic static void Main()\n\t{\n\n\t}\n}",
+        "video": "kJD7VlMUfnM"
+    },
+    {
+        "number": 62,
+        "category": "String manipulatie",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Schrijf met string formatting \"The enemy has 100 health left\", waarbij 100 aanpasbaar moet zijn.",
+        "requirements": "Maak gebruik van String.Format",
+        "skeleton": "public class Strings\n{\n\tpublic static void Main()\n\t{\n\n\t}\n}",
+        "video": "kJD7VlMUfnM"
+    },
+    {
+        "number": 63,
+        "category": "String manipulatie",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Check of de twee strings gelijk zijn aan elkaar.",
+        "requirements": "Vergelijk op de goede manier die we voor strings gebruiken",
+        "skeleton": "public class Strings\n{\n\tpublic static void Main()\n\t{\n        string name = \"Eldan\";\n        string friend = \"eldan\";\n\t}\n}",
+        "video": "kJD7VlMUfnM"
+    },
+    {
+        "number": 64,
+        "category": "String manipulatie",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Zorg ervoor dat de gegeven strings hoofdletter ONGEVOELIG wordt vergeleken.",
+        "requirements": "De uitkomst van de vergelijking moet nu dus true zijn",
+        "skeleton": "public class Strings\n{\n\tpublic static void Main()\n\t{\n        string name = \"Eldan\";\n        string friend = \"eldan\";\n\t}\n}",
+        "video": "kJD7VlMUfnM"
+    },
+    {
+        "number": 65,
+        "category": "String manipulatie",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Zorg eerst met concatenatie en daarna met string.format ervoor dat er \"Welcome Eldan, lets start saving the world!!\" wordt afgedrukt",
+        "requirements": "De uitkomst is dus twee keer dezelfde zin, op twee verschillende manieren bereikt",
+        "skeleton": "public class Strings\n{\n\tpublic static void Main()\n\t{\n        string name = \"Eldan\";\n        string text1 = \"Welcome\";\n        string text2 = \", lets start saving the world!!\";\n\t}\n}",
+        "video": "kJD7VlMUfnM"
+    },
+    {
+        "number": 66,
+        "category": "String manipulatie",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Schrijf een programma die als uitvoer heeft: (waarbij het cijfer tot van 0 tot 9 loopt)\n File(0).exe\n File(1).exe\n File(2).exe",
+        "requirements": "nvt",
+        "skeleton": "public class Strings\n{\n\tpublic static void Main()\n\t{\n\n\t}\n}",
+        "video": "kJD7VlMUfnM"
+    },
+    {
+        "number": 67,
+        "category": "String manipulatie",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Schrijf in 1 regel een string replace waarbij in \"The enemy wizard has died\", \"wizard\" wordt vervangen door \"warrior\" EN \"has died\" wordt vervangen door \"is alive\"",
+        "requirements": "Voer de opdracht in 1 regel uit",
+        "skeleton": "public class Strings\n{\n\tpublic static void Main()\n\t{\n        string input = \"The enemy wizard has died\";\n\t}\n}",
+        "video": "kJD7VlMUfnM"
+    },
+    {
+        "number": 68,
+        "category": "String manipulatie",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Druk de onderstaande lijst uitgelijnd op de komma's af.\n123,45\n9,95\n19,99\n12\n99,9",
+        "requirements": "",
+        "skeleton": "public class Strings\n{\n\tpublic static void Main()\n\t{\n\n\t}\n}",
+        "video": "kJD7VlMUfnM"
+    },
+    {
+        "number": 69,
+        "category": "String manipulatie",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Druk de onderstaande namen rechts uitgelijnd af\n\nCall of Duty\nWorld of Warcraft\nStarcraft 2\nFallout 4\nGrand Theft Auto",
+        "requirements": "nvt",
+        "skeleton": "public class Strings\n{\n\tpublic static void Main()\n\t{\n\n\t}\n}",
+        "video": "kJD7VlMUfnM"
+    },
+    {
+        "number": 70,
+        "category": "String manipulatie",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Draai het 4e en 5e woord om in de volgende zin:\n\"Llane Wrynn was the ruler of the Kingdom of Azeroth during the First War\"",
+        "requirements": "nvt",
+        "skeleton": "public class Strings\n{\n\tpublic static void Main()\n\t{\n\n\t}\n}",
+        "video": "kJD7VlMUfnM"
+    },
+    {
+        "number": 71,
+        "category": "String manipulatie",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Draai de inhoud van een string om",
+        "requirements": "Zet de uitkomst in output\n",
+        "skeleton": "public class Strings\n{\n\tpublic static void Main()\n\t{\n        string input = \"The Lich King is the master and lord of the Scourge\";\n        \n        string output;\n        System.Console.Writeline(output);\n\t}\n}",
+        "video": "kJD7VlMUfnM"
+    },
+    {
+        "number": 72,
+        "category": "String manipulatie",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Druk het vijfde woord in de volgende zin af. \n\"The fierce warrior Eldan has slain the might demon Kil'jaeden\"",
+        "requirements": "nvt",
+        "skeleton": "public class Strings\n{\n\tpublic static void Main()\n\t{\n\n\t}\n}",
+        "video": "kJD7VlMUfnM"
+    },
+    {
+        "number": 73,
+        "category": "String manipulatie",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Druk de integer \"123\" af in hexadecimaal en binair",
+        "requirements": "Gebruik hiervoor string-Format en GEEN andere/extra variabele",
+        "skeleton": "public class Strings\n{\n\tpublic static void Main()\n\t{\n        int number = 123;\n\t}\n}",
+        "video": "kJD7VlMUfnM"
+    },
+    {
+        "number": 74,
+        "category": "String manipulatie",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Welke letter staat op index 333?",
+        "requirements": "Vang errors netjes op",
+        "skeleton": "public class Strings\n{\n\tpublic static void Main()\n\t{\n        string input = \"Onyxia is the current broodmother of the Black Dragonflight\";\n\t}\n}",
+        "video": "kJD7VlMUfnM"
+    },
+    {
+        "number": 75,
+        "category": "String manipulatie",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Encoding van een string veranderen",
+        "requirements": "Verander de encoding naar UTF-8",
+        "skeleton": "public class Strings\n{\n\tpublic static void Main()\n\t{\n        string input = \"This is still readable\";\n\t}\n}",
+        "video": "kJD7VlMUfnM"
+    },
+    {
+        "number": 76,
+        "category": "Operatoren",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Tel x en y bij elkaar op in een z en rond af naar beneden.",
+        "requirements": "nvt",
+        "skeleton": "public class Operatoren\n{\n   public static void Main()\n   {\n       int x = 10;\n       double y = 2.3;\n      \n   }\n}",
+        "video": "JORTrgxtJLw"
+    },
+    {
+        "number": 77,
+        "category": "Operatoren",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Vermenigvuldig x met y, en deel dat door 3. Sla dit op in z en rond niet af.",
+        "requirements": "nvt",
+        "skeleton": "public class Operatoren\n{\n   public static void Main()\n   {      \n       int x = 10;\n       double y = 2.3;\n      \n   }\n}",
+        "video": "JORTrgxtJLw"
+    },
+    {
+        "number": 78,
+        "category": "Operatoren",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Tel bij x 1 op, deel dat door y en sla dat op in x, waarbij je afrond naar beneden.",
+        "requirements": "1 regel code.",
+        "skeleton": "public class Operatoren\n{\n   public static void Main()\n   {      \n       int x = 10;\n       double y = 2.3;\n      \n   }\n}",
+        "video": "JORTrgxtJLw"
+    },
+    {
+        "number": 79,
+        "category": "Operatoren",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Verlaag y met z, tel er x bij op, deel dat door 1 meer dan y, maak dat negatief en sla dat op in z (rond af naar beneden).",
+        "requirements": "1 regel code.",
+        "skeleton": "public class Operatoren\n{\n   public static void Main()\n   {\n       int x=10;\n       int y=12;\n       int z=-30;\n      \n   }\n}",
+        "video": "JORTrgxtJLw"
+    },
+    {
+        "number": 80,
+        "category": "Operatoren",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Verhoog x met 4.",
+        "requirements": "1 regel code, gebruik geen getallen.",
+        "skeleton": "public class Operatoren\n{\n   public static void Main()\n   {\n       int x=5;\n      \n   }\n}",
+        "video": "JORTrgxtJLw"
+    },
+    {
+        "number": 81,
+        "category": "Operatoren",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Rond y en z af in a en b, volgens de normale afrondingsregels.",
+        "requirements": "nvt",
+        "skeleton": "public class Operatoren\n{\n   public static void Main()\n   {\n       double y=14.6; //15\n       double z=14.4; //14\n      \n   }\n}",
+        "video": "JORTrgxtJLw"
+    },
+    {
+        "number": 82,
+        "category": "Operatoren",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Tel twee getallen bij elkaar op en neem dan de rest bij deling door een derde getal. Sla dit getal op.",
+        "requirements": "nvt",
+        "skeleton": "public class Operatoren\n{\n   public static void Main()\n   {\n       int x=4;\n       int y=6;\n       int z=3;\n      \n   }\n}",
+        "video": "JORTrgxtJLw"
+    },
+    {
+        "number": 83,
+        "category": "Operatoren",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Zorg ervoor dat met gebruik van operatoren en haakjes 14 in a komt te zitten.",
+        "requirements": "1 regel code.",
+        "skeleton": "public class Operatoren\n{\n   public static void Main()\n   {\n       int x=7;\n       int y=5;\n       int z=3;\n      \n   }\n}",
+        "video": "JORTrgxtJLw"
+    },
+    {
+        "number": 84,
+        "category": "Operatoren",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Verhoog x met y keer z en verlaag z met x.",
+        "requirements": "2 regels code.",
+        "skeleton": "public class Operatoren\n{\n   public static void Main()\n   {\n       int x=10;\n       int y=4;\n       int z=80;\n      \n   }\n}",
+        "video": "JORTrgxtJLw"
+    },
+    {
+        "number": 85,
+        "category": "Operatoren",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Laat op het scherm komen: '3 apenballen eten 4 kersenbomen'.",
+        "requirements": "1 regel code, gebruik alle variabelen.",
+        "skeleton": "public class Operatoren\n{\n   public static void Main()\n   {\n       int x=4;\n       int y=3;\n       string soort=\"apenballen\";\n       string plant=\"kersenbomen\";\n      \n   }\n}",
+        "video": "JORTrgxtJLw"
+    },
+    {
+        "number": 86,
+        "category": "Operatoren",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Laat op het scherm komen: '3 apenballen eten 4 kersenbomen'.",
+        "requirements": "1 regel code, gebruik alle variabelen, maximaal 1 set haakjes.",
+        "skeleton": "public class Operatoren\n{\n   public static void Main()\n   {\n       int x=2;\n       int y=1;\n       string soort=\"apenballen\";\n       string plant=\"kersenbomen\";\n   }\n}",
+        "video": "JORTrgxtJLw"
+    },
+    {
+        "number": 87,
+        "category": "Operatoren",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Zorg ervoor dat in x 12 komt te zitten.",
+        "requirements": "1 regel code, gebruik alle variabelen.",
+        "skeleton": "public class Operatoren\n{\n   public static void Main()\n   {\n       int x=0;\n       int y=12;\n       int z=2;\n       int a=5;\n       int b=3;\n   }\n}",
+        "video": "JORTrgxtJLw"
+    },
+    {
+        "number": 88,
+        "category": "Operatoren",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Zorg ervoor dat in x 37 komt te zitten.",
+        "requirements": "1 regel code.",
+        "skeleton": "public class Operatoren\n{\n   public static void Main()\n   {\n       int x=12;\n      \n   }\n}",
+        "video": "JORTrgxtJLw"
+    },
+    {
+        "number": 89,
+        "category": "Operatoren",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Maak y 1 als x even is en 2 als x oneven is",
+        "requirements": "Vul op beide plekken commentaar dezelfde code in.",
+        "skeleton": "public class Operatoren\n{\n   public static void Main()\n   {\n      int x=10;\n      //code\n      x=11;\n      //code\n   }\n}",
+        "video": "JORTrgxtJLw"
+    },
+    {
+        "number": 90,
+        "category": "Operatoren",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Druk 'tekst' op het scherm af, gevolgd door het getal 4321.",
+        "requirements": "Gebruik 1 regel code, gebruik geen getallen.",
+        "skeleton": "public class Operatoren\n{\n   public static void Main()\n   {\n       int x=123;\n       string tekst=\"Ik ben die operatoren meer dan zat\";\n      \n   }\n}",
+        "video": "JORTrgxtJLw"
+    },
+    {
+        "number": 91,
+        "category": "Logische Operatoren",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Sla in een boolean op of een random getal even is en deelbaar door 8.\n",
+        "requirements": "nvt",
+        "skeleton": "public class Logisch\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "XLqe7kKPDFA"
+    },
+    {
+        "number": 92,
+        "category": "Logische Operatoren",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Sla in een boolean op of een random getal oneven is en deelbaar door 17.\n",
+        "requirements": "nvt",
+        "skeleton": "public class Logisch\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "XLqe7kKPDFA"
+    },
+    {
+        "number": 93,
+        "category": "Logische Operatoren",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Sla in een boolean op of een random getal deelbaar door 7 en deelbaar door 4 is\n",
+        "requirements": "nvt",
+        "skeleton": "public class Logisch\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "XLqe7kKPDFA"
+    },
+    {
+        "number": 94,
+        "category": "Logische Operatoren",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Sla in een boolean op of een woord begint met een 'a' of 'b'.\n",
+        "requirements": "nvt",
+        "skeleton": "public class Logisch\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "XLqe7kKPDFA"
+    },
+    {
+        "number": 95,
+        "category": "Logische Operatoren",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Sla in een boolean op of een woord begint met een 'a' of 'b', en niet eindigt op een 'c'.\n",
+        "requirements": "nvt\n",
+        "skeleton": "public class Logisch\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "XLqe7kKPDFA"
+    },
+    {
+        "number": 96,
+        "category": "Logische Operatoren",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Sla in een boolean op of een ingetypt woord van 4 letters een palindroom is. Neem bv. Otto of Anna.\n",
+        "requirements": "nvt",
+        "skeleton": "public class Logisch\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "XLqe7kKPDFA"
+    },
+    {
+        "number": 97,
+        "category": "Logische Operatoren",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Sla in een boolean op of een ingetypt woord van 11 letters een palindroom is. Neem bv. taartstraat.",
+        "requirements": "nvt",
+        "skeleton": "public class Logisch\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "XLqe7kKPDFA"
+    },
+    {
+        "number": 98,
+        "category": "Logische Operatoren",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Verdeel een denkbeeldig computerbeeld van 256x256 pixels in 2 gelijke vlakken met waarde 1 door een snijlijn met waarde 0.\tVeronderstel dat alle pixels de waarde 1 hebben en ken nullen toe door het programmeren van slechts één logische expressie ahv. twee positievariabelen x en y.",
+        "requirements": "nvt\n",
+        "skeleton": "public class Logisch\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "XLqe7kKPDFA"
+    },
+    {
+        "number": 99,
+        "category": "Logische Operatoren",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Verdeel een denkbeeldig computerbeeld van 256x256 pixels in 3 gelijke vlakken met waarde 1 door twee snijlijnen met waarde 0. Veronderstel dat alle pixels de waarde 1 hebben en ken nullen toe door het programmeren van slechts één logische expressie ahv. twee positievariabelen x en y.",
+        "requirements": "nvt",
+        "skeleton": "public class Logisch\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "XLqe7kKPDFA"
+    },
+    {
+        "number": 100,
+        "category": "Logische Operatoren",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Verdeel een denkbeeldig computerbeeld van 256x256 pixels in 4 gelijke vlakken met waarde 1 door twee snijlijnen met waarde 0. Veronderstel dat alle pixels de waarde 1 hebben en ken nullen toe door het programmeren van slechts één logische expressie ahv. twee positievariabelen x en y.",
+        "requirements": "nvt",
+        "skeleton": "public class Logisch\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "XLqe7kKPDFA"
+    },
+    {
+        "number": 101,
+        "category": "Logische Operatoren",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Sla in een boolean op of een vakje (x,y) op een schaakbord zwart is (en bestaat!).",
+        "requirements": "nvt\n",
+        "skeleton": "public class Logisch\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "XLqe7kKPDFA"
+    },
+    {
+        "number": 102,
+        "category": "Logische Operatoren",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Sla in een boolean op of een vakje (x,y) op een schaakbord wit is (en bestaat!).",
+        "requirements": "nvt",
+        "skeleton": "public class Logisch\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "XLqe7kKPDFA"
+    },
+    {
+        "number": 103,
+        "category": "Logische Operatoren",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Sla in een boolean op of een vakje (x,y) op een dambord zwart is (en bestaat!).",
+        "requirements": "nvt\n",
+        "skeleton": "public class Logisch\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "XLqe7kKPDFA"
+    },
+    {
+        "number": 104,
+        "category": "Logische Operatoren",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Sla in een boolean op of een vakje (x,y) op een dambord wit is (en bestaat!).",
+        "requirements": "nvt",
+        "skeleton": "public class Logisch\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "XLqe7kKPDFA"
+    },
+    {
+        "number": 105,
+        "category": "Logische Operatoren",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Geef een boolse expressie die checkt of een door Gary Kasparov geplande stap van een paard toegestaan (x,y) is. Neem positie (0,0) als de huidige positie van het paard.\n",
+        "requirements": "nvt",
+        "skeleton": "public class Logisch\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "XLqe7kKPDFA"
+    },
+    {
+        "number": 106,
+        "category": "if",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Maak alle getallen van -1000 tot 1000 nul behalve de band van -10 tot 10, die wordt 1.\n",
+        "requirements": "Schrijf alleen de if\n",
+        "skeleton": "public class Conditie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "g-aGmPgtWiU"
+    },
+    {
+        "number": 107,
+        "category": "if",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Controleer bij de zelfscan in de AH ahv. leeftijd of iemand alcohol mee mag nemen uit de supermarkt.\n",
+        "requirements": "nvt",
+        "skeleton": "public class Conditie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "g-aGmPgtWiU"
+    },
+    {
+        "number": 108,
+        "category": "if",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Controleer bij de algemene verkiezingen ahv. leeftijd of iemand mag stemmen.\n",
+        "requirements": "nvt",
+        "skeleton": "public class Conditie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "g-aGmPgtWiU"
+    },
+    {
+        "number": 109,
+        "category": "if",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Controleer of er wel genoeg benzine in de auto zit. Zo niet dan moet het rode lampje gaan branden.\n",
+        "requirements": "Representeer het lampje door een boolean.\n",
+        "skeleton": "public class Conditie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "g-aGmPgtWiU"
+    },
+    {
+        "number": 110,
+        "category": "if",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Controleer of een ingetypt getal even of oneven is.\n",
+        "requirements": "nvt",
+        "skeleton": "public class Conditie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "g-aGmPgtWiU"
+    },
+    {
+        "number": 111,
+        "category": "if",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Geef elke dag van de week (een string) een ander nummer.\n",
+        "requirements": "nvt",
+        "skeleton": "public class Conditie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "g-aGmPgtWiU"
+    },
+    {
+        "number": 112,
+        "category": "if",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Definieer het aantal dagen per maand (een string).\n",
+        "requirements": "nvt",
+        "skeleton": "public class Conditie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "g-aGmPgtWiU"
+    },
+    {
+        "number": 113,
+        "category": "if",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Karel Appel is weer eens lekker aan het verfen. Selecteer de kleur die hij gebruikt ahv. het uur in een etmaal.\n",
+        "requirements": "Gebruik voor kleur een string.\n",
+        "skeleton": "public class Conditie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "g-aGmPgtWiU"
+    },
+    {
+        "number": 114,
+        "category": "if",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Help een programmeur zijn taal kiezen adhv. of het ochtend (C#), middag (C) of avond (C++) is.\n",
+        "requirements": "Gebruik voor taal een string\n",
+        "skeleton": "public class Conditie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "g-aGmPgtWiU"
+    },
+    {
+        "number": 115,
+        "category": "if",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Help kinderen langer slapen in de winter (10 uur) dan in de zomer (6 uur). Herfst en voorjaar zit er tussenin.\n",
+        "requirements": "Gebruik een string voor winter/zomer.",
+        "skeleton": "public class Conditie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "g-aGmPgtWiU"
+    },
+    {
+        "number": 116,
+        "category": "if",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Een computerscherm van 256x256 pixels is verdeeld in 16 stukken van gelijke grootte. elke pixel daarin heeft als waarde het vaknummer waar hij inzit. Bepaal aan de hand van (x,y) welke waarde die pixel heeft.",
+        "requirements": "nvt",
+        "skeleton": "public class Conditie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "g-aGmPgtWiU"
+    },
+    {
+        "number": 117,
+        "category": "if",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Oma is lekker pannenkoeken aan het bakken. Controleer haar door te checken of de 1e, 2e en 3e pannenkoek uit ieder opvolgend drietal resp. kaal, met kaas, of met appel is.\n",
+        "requirements": "nvt",
+        "skeleton": "public class Conditie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "g-aGmPgtWiU"
+    },
+    {
+        "number": 118,
+        "category": "if",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Gooi twee dobbelstenen en check of het totaal even of oneven is.\n",
+        "requirements": "nvt",
+        "skeleton": "public class Conditie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "g-aGmPgtWiU"
+    },
+    {
+        "number": 119,
+        "category": "if",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Ken tien punten toe aan een ingetypt woord als het met meer dan 4 klinkers begint, 5 punten aan woorden met 2 of 3 klinkers en 0 punten aan woorden met een medeklinker. Druk het aantal punten af.",
+        "requirements": "Druk het aantal punten af achter ieder ingetypt woord.\n",
+        "skeleton": "public class Conditie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "g-aGmPgtWiU"
+    },
+    {
+        "number": 120,
+        "category": "if",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Docenten zijn het zat om steeds vragen te beantwoorden over welke taal het beste is: C#, C of Java. Gegeven een int met studentnummer. Stel adhv het laatste cijfer daarvan vast wat het antwoord is. (<4: Java, tussen 3 en 7: C, anders C#)",
+        "requirements": "nvt",
+        "skeleton": "public class Conditie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "g-aGmPgtWiU"
+    },
+    {
+        "number": 121,
+        "category": "while",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Hoeveel lucifers passen er in een meter als elke lucifer 2.6 ± .1 cm lang is? Druk het antwoord af voor drie runs.\n",
+        "requirements": "Bepaal de lengte van de lucifer random uit 2.5, 2.6 en 2.7.\n",
+        "skeleton": "public class WhileLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "rTCi5JjjmQ4"
+    },
+    {
+        "number": 122,
+        "category": "while",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Halveer 10,000 euro totdat er minder dan 100 euro over is. Druk het aantal halveringen af.\n",
+        "requirements": "nvt",
+        "skeleton": "public class WhileLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "rTCi5JjjmQ4"
+    },
+    {
+        "number": 123,
+        "category": "while",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Verdubbel 19.97 euro tot meer dan 1 miljard euro. Druk het aantal verdubbelingen af.\n",
+        "requirements": "nvt",
+        "skeleton": "public class WhileLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "rTCi5JjjmQ4"
+    },
+    {
+        "number": 124,
+        "category": "while",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Druk de cijfers 0 t/m 9 gedurende 1ms af. Tel het aantal afgedrukte rijen.",
+        "requirements": "nvt",
+        "skeleton": "public class WhileLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "rTCi5JjjmQ4"
+    },
+    {
+        "number": 125,
+        "category": "while",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Maak een simpel programmaatje dat voor de NS voorspelt of wissels gaan bevriezen. Gebruik als indicator de random dagtemperatuur. Zolang het drie dagen niet vriest gaat het goed. ",
+        "requirements": "Druk ook de 3 dagtemperaturen af.\n",
+        "skeleton": "public class WhileLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "rTCi5JjjmQ4"
+    },
+    {
+        "number": 126,
+        "category": "while",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Voor een voor studenten niet geheel onbekend spelletje moet er bepaald worden hoe vaak er op een knop wordt gedrukt. Ga door met tellen totdat de speler van het spel 2s niet op de knop drukt. Druk het aantal keer drukken af. \n",
+        "requirements": "nvt (evt. testen in visual studio)",
+        "skeleton": "public class WhileLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "rTCi5JjjmQ4"
+    },
+    {
+        "number": 127,
+        "category": "while",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Hoeveel punaises passen er in een kuub als elke punaise wordt gerepresenteerd door 7±1 kubieke millimeter? Druk het antwoord af voor drie runs. Bepaal de grootte van elke punaise random uit 6, 7 en 8. Neem aan dat de punaises perfect op elkaar aansluiten bij het stapelen.",
+        "requirements": "nvt",
+        "skeleton": "public class WhileLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "rTCi5JjjmQ4"
+    },
+    {
+        "number": 128,
+        "category": "while",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Mama is weer lekker pannenkoeken aan het bakken maar de 3 dekselse kinderen halen steeds kant en klare exemplaren van de stapel. Laat Mama doorbakken zolang er minder dan vijf op de stapel liggen. Laat het bakken van 1 exemplaar 10s duren en het opeten in het begin 1s. Na elke 1/2 minuut worden de kinderen 2x minder gretig. Reken uit hoeveel pannenkoeken Mama zal bakken.",
+        "requirements": "nvt",
+        "skeleton": "public class WhileLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "rTCi5JjjmQ4"
+    },
+    {
+        "number": 129,
+        "category": "while",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Bepaal hoeveel mensen kunnen pinnen voordat de bankatomaat op het Leidseplein in Amsterdam leeg is. Neem aan dat er in eerste instantie 100,000 euro in de automaat zit en dat het pinbedrag random is maar maximaal 500 euro is,\n",
+        "requirements": "Druk ook de opgenomen bedragen af.",
+        "skeleton": "public class WhileLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "rTCi5JjjmQ4"
+    },
+    {
+        "number": 130,
+        "category": "while",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Dagobert Duck wil van zijn geld af. Hoeveel dagen heeft hij hier voor nodig als hij elke dag 100 mensen blij maakt met een willekeurig briefje? Totaal in pakhuis is 17,4 triljoen euro.",
+        "requirements": "Druk ook de bedragen af.",
+        "skeleton": "public class WhileLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "rTCi5JjjmQ4"
+    },
+    {
+        "number": 131,
+        "category": "while",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Test of een ingetypt woord een palindroom is",
+        "requirements": "nvt",
+        "skeleton": "public class WhileLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "rTCi5JjjmQ4"
+    },
+    {
+        "number": 132,
+        "category": "while",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Via elk mens dat je kent sta je in 2egraads verbinding met andere mensen die je nog nooit hebt gezien. In hoeveel stappen sta je in verbinding met de hele wereldbevolking? Neem aan dat elk mens in verbinding staat met 50 nieuwe unieke personen en zoek de grootte van de actuele wereldpopulatie op.",
+        "requirements": "nvt",
+        "skeleton": "public class WhileLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "rTCi5JjjmQ4"
+    },
+    {
+        "number": 133,
+        "category": "while",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Via elk mens dat je kent sta je in 2egraads verbinding met andere mensen die je nog nooit hebt gezien. In hoeveel stappen sta je in verbinding met iedereen in NL? Neem aan dat elk mens in verbinding staat met 50 nieuwe unieke personen en zoek de actuele grootte van de bevolkingspopulatie in NL op.",
+        "requirements": "nvt",
+        "skeleton": "public class WhileLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "rTCi5JjjmQ4"
+    },
+    {
+        "number": 134,
+        "category": "while",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "De Eifeltoren in Parijs is 300m hoog. Hoeveel treden moet je op als de 1e trede 15 cm is en elke volgende trede 2x zo hoog?\n",
+        "requirements": "nvt",
+        "skeleton": "public class WhileLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "rTCi5JjjmQ4"
+    },
+    {
+        "number": 135,
+        "category": "while",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "De Domtoren in Utrecht is 112m hoog. Hoeveel treden moet je op als de 1e trede 15 cm is en elke volgende trede 2x zo hoog?\n",
+        "requirements": "nvt",
+        "skeleton": "public class WhileLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "rTCi5JjjmQ4"
+    },
+    {
+        "number": 136,
+        "category": "for",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Halveer 10,000 euro 63x en druk het overgebleven bedrag af.\n",
+        "requirements": "for-loop",
+        "skeleton": "public class ForLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "7dFgbg-d95g"
+    },
+    {
+        "number": 137,
+        "category": "for",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Verdubbel 19.97 euro 88x en druk de totaalsom af.\n",
+        "requirements": "for-loop",
+        "skeleton": "public class ForLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "7dFgbg-d95g"
+    },
+    {
+        "number": 138,
+        "category": "for",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Druk de cijfers 0 t/m 9 17x af.\n",
+        "requirements": "for-loop",
+        "skeleton": "public class ForLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "7dFgbg-d95g"
+    },
+    {
+        "number": 139,
+        "category": "for",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Een docent krijgt in the week of code elke dag ongeveer 80 vragen op zich afgevuurd. Om uitweiden te voorkomen moet er uitgerekend worden hoe lang een antwoord mag duren. Reken eerst de tijdsduur voor alle antwoorden van de hele week uit in minuten. Neem aan dat in het 1e uur van een dag elk antwoord 20s duurt, dat in elk volgend uur een antwoord 2x zo lang duurt en dat er 8 uur per dag zijn. \n",
+        "requirements": "nvt",
+        "skeleton": "public class ForLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "7dFgbg-d95g"
+    },
+    {
+        "number": 140,
+        "category": "for",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Druk de dagen van de week af voor iedere week van het jaar 2016.\n",
+        "requirements": "nvt",
+        "skeleton": "public class ForLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "7dFgbg-d95g"
+    },
+    {
+        "number": 141,
+        "category": "for",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Tel 100x een random getal van 1 t/m 10 bij elkaar op en druk het resultaat af.\n",
+        "requirements": "nvt",
+        "skeleton": "public class ForLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "7dFgbg-d95g"
+    },
+    {
+        "number": 142,
+        "category": "for",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Reken de rente uit voor 25 jaar 10,000 euro op de bank zetten. Rentetarief: 3,25%.",
+        "requirements": "nvt\n",
+        "skeleton": "public class ForLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "7dFgbg-d95g"
+    },
+    {
+        "number": 143,
+        "category": "for",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "De toetsen van klas Z1A zijn nagekeken maar de HHS gaat over naar het Amerikaanse systeem. Zet alle cijfers om, om de docent een handje te helpen. Amerikaanse toetscijfers zijn A, B, C, D, E, F voor resp. 9, 10; 8; 7; 6; 5; en 1, 2, 3, 4. Gebruik 20 random cijfers.",
+        "requirements": "nvt",
+        "skeleton": "public class ForLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "7dFgbg-d95g"
+    },
+    {
+        "number": 144,
+        "category": "for",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Reken uit hoe lang je computer erover doet om de cijfers van 1 t/m 1 miljoen bij elkaar op te tellen.\n",
+        "requirements": "Druk de tijd en de som af.\n",
+        "skeleton": "public class ForLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "7dFgbg-d95g"
+    },
+    {
+        "number": 145,
+        "category": "for",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Reken uit hoe lang je computer erover doet om de cijfers van 1 t/m 1 miljoen met elkaar te vermenigvuldigen.\n",
+        "requirements": "Druk de tijd en de som af.\n",
+        "skeleton": "public class ForLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "7dFgbg-d95g"
+    },
+    {
+        "number": 146,
+        "category": "for",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Een Godheid is de wereld weer eens aan het scheppen. Bereken een random landschap door 80,000 steentjes naar beneden te laten vallen op een grid van 40x40. Geef aan hoeveel steentjes er gevallen zijn op vakje (25,25).",
+        "requirements": "Representeer de aarde door een x,y-array van grootte 512x512.\n",
+        "skeleton": "public class ForLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "7dFgbg-d95g"
+    },
+    {
+        "number": 147,
+        "category": "for",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Dafne Schippers rent best vaak wereldrecords 100m op de training. Neem aan dat ze per stap 7±1.5m aflegt en dat ze in aanloop van de OS 2016 in Rio 1000x de 100m traint. Hoeveel wereldrecords rent ze volgens jou berekening? Neem aan dat Dafne een wereldrecord loopt als het aantal benodigde stappen kleiner dan of gelijk aan 14 is. Veronderstel voor iedere stap randomness. ",
+        "requirements": "nvt",
+        "skeleton": "public class ForLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "7dFgbg-d95g"
+    },
+    {
+        "number": 148,
+        "category": "for",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Werk opgave 143 uit voor alle vijf klassen HBO-ICT.Neem weer aan dat een klas 20 studenten heeft.",
+        "requirements": "nvt",
+        "skeleton": "public class ForLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "7dFgbg-d95g"
+    },
+    {
+        "number": 149,
+        "category": "for",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Hetzelfde als opgave 146 maar neem voor de 1e helft lavablokken. Een lavablok valt behalve op het geselecteerde vakje, ook op alle vakjes er horizontaal of verticaal naast.",
+        "requirements": "nvt",
+        "skeleton": "public class ForLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "7dFgbg-d95g"
+    },
+    {
+        "number": 150,
+        "category": "for",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Hoelang wordt een rij van 100,000 punaises als elke punaise wordt gerepresenteerd door 7±1 millimeter? Bepaal de grootte van de punaises random uit 6, 7 en 8.",
+        "requirements": "nvt\n",
+        "skeleton": "public class ForLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "7dFgbg-d95g"
+    },
+    {
+        "number": 151,
+        "category": "Arrays",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Schrijf een methode die van de som oplevert van het array-element x en zijn rechter- en linkerbuur vakje (als deze bestaan).",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n      int[] nummers = {1, 2, 3, 4, 5};\n      doe(nummers, 3); //12\n      doe(nummers, 0); //3\n   }\n}",
+        "video": "P14IABj2YeY"
+    },
+    {
+        "number": 152,
+        "category": "Arrays",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Schrijf een methode die van de som oplevert van het array-element x en zijn rechter- en linkerbuur vakje (als deze bestaan) en de vakjes daar weer naast (als deze bestaan).",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n      int[] nummers = {1, 2, 3, 4, 5};\n      doe(nummers, 3); //14\n      doe(nummers, 0); //6\n   }\n}",
+        "video": "P14IABj2YeY"
+    },
+    {
+        "number": 153,
+        "category": "Arrays",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Druk op het scherm de som van alle getallen in het array af en het gemiddelde.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n      int[] nummers = {1, 2, 3, 4, 5};\n      //som 15 gemiddelde 3\n   }\n}",
+        "video": "P14IABj2YeY"
+    },
+    {
+        "number": 154,
+        "category": "Arrays",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Schrijf een methode die de getallen op plek x en y van plek verwisselt.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n      int[] nummers = {1, 2, 3, 4, 5};\n      wissel(nummers, 2, 4); // 1,2,5,4,3\n      wissel(nummers, 0, 4); // 3,2,5,4,1\n   }\n}",
+        "video": "P14IABj2YeY"
+    },
+    {
+        "number": 155,
+        "category": "Arrays",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Schrijf een methode die teruggeeft of getal x voorkomt in het array (boolean). Druk daarna het resultaat op het scherm af.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n      int[] nummers = {1, 2, 3, 4, 5};\n      doe(nummers, 6); //niet gevonden\n      \n      doe(nummers, 2); //gevonden\n   }\n}",
+        "video": "P14IABj2YeY"
+    },
+    {
+        "number": 156,
+        "category": "Arrays",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Schrijf een methode die vaststelt of het array oplopend gesorteerd is of niet.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n      int[] nummers = {1, 2, 3, 4, 5};\n      doe(nummers); //ja\n      int[] nummers2 = {1, 2, 3, 5, 4};\n      doe(nummers2); //nee\n   }\n}",
+        "video": "P14IABj2YeY"
+    },
+    {
+        "number": 157,
+        "category": "Arrays",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Schrijf een methode die afhankelijk van de tweede parameter (true is oplopend) bepaalt of het array juist gesorteerd is.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n      int[] nummers = {1, 2, 3, 4, 5};\n      doe(nummers, true); //ja\n      doe(nummers, false); //nee\n      int[] nummers2 = {1, 2, 3, 5, 4};\n      doe(nummers2, true); //nee\n      int[] nummers3 = {17,6,5};\n      doe(nummers3, false); //ja\n   }\n}",
+        "video": "P14IABj2YeY"
+    },
+    {
+        "number": 158,
+        "category": "Arrays",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Schrijf een methode die teruggeeft hoeveel getallen in het array groter zijn dan het getal op plek x.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n      int[] nummers = {1, 2, 3, 4, 5};\n      doe(nummers, 1); //3\n      doe(nummers, 3); //1\n      int[] nummers2 = {8,4,6,3,2,6,8,4,6,8};\n      doe(nummers2, 8); //3\n      doe(nummers2, 4); //9\n   }\n}",
+        "video": "P14IABj2YeY"
+    },
+    {
+        "number": 159,
+        "category": "Arrays",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Schrijf een methode die voor van alle vakjes die meedoen de som teruggeeft.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n      int[] nummers = {1, 2, 3, 4, 5};\n      bool[] doetmee = {true,false,true,false,true} //9\n      int[] nummers2 = {1, 2, 3, 4, 5};\n      bool[] doetmee2 = {false,false,true,true,true} //12\n   }\n}",
+        "video": "P14IABj2YeY"
+    },
+    {
+        "number": 160,
+        "category": "Arrays",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Schrijf een methode die het hele array afdrukt waarbij ieder getal dat meedoet met 2 vermenigvuldigd wordt en ieder getal dat niet meedoet wordt vervangen door 'geheim'.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n      int[] nummers = {1, 2, 3, 4, 5};\n      bool[] doetmee = {true,false,true,false,true} // 2 geheim 6 geheim 10\n      int[] nummers2 = {1, 2, 3, 4, 5};\n      bool[] doetmee2 = {false,false,true,true,true} //geheim geheim 6 8 10\n   }\n}",
+        "video": "P14IABj2YeY"
+    },
+    {
+        "number": 161,
+        "category": "Arrays",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Schrijf een methode die het eerste en laatste array element omwisselt, het tweede en een-na-laatste, etc.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[] nummers = {1, 2, 3, 4, 5}; //5,4,3,2,1\n   }\n}\n",
+        "video": "P14IABj2YeY"
+    },
+    {
+        "number": 162,
+        "category": "Arrays",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Schrijf een methode die in elk vakje de som neerzet van de x vakjes ernaast, als ze bestaan. Als er helemaal geen vakjes bestaan wordt het vakje -1.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[] nummers = {1, 2, 3, 4, 5};\n       doe (nummers, 2); // 5,7,9,5,-1\n       doe (nummers, 3); // 9,12,9,5,-1\n   }\n}\n",
+        "video": "P14IABj2YeY"
+    },
+    {
+        "number": 163,
+        "category": "Arrays",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Schrijf een methode die de inhoud van twee arrays met elkaar vermenigvuldigd en returned in een derde array. De vermenigvuldiging gaat omgekeerd. Het eerste vakje van de één met het laatste vakje van de ander, etc.",
+        "requirements": "Gebruik maximaal 1 loop.",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[] nummers = {1, 2, 3, 4, 5};\n       int[] nummers2 = {5, 6, 7, 8, 9};\n       int[] nummers3;\n       nummers3 = doe(nummers, nummers2); // 9, 16, 21, 24, 25\n   }\n}\n",
+        "video": "P14IABj2YeY"
+    },
+    {
+        "number": 164,
+        "category": "Arrays",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Schrijf een methode die bekijkt of twee arrays dezelfde inhoud bevatten.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[] nummers = {1, 2, 3, 4, 5};\n       int[] nummers2 = {1, 2, 3, 4, 5};\n       int[] nummers3 = {1, 6, 3, 4, 5};\n       doe (nummers, nummers2); // ja\n       doe (nummers, nummers3); // nee\n   }\n}\n",
+        "video": "P14IABj2YeY"
+    },
+    {
+        "number": 165,
+        "category": "Arrays",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Schrijf een methode die bekijkt of twee arrays op alle vakjes overeenkomen die een derde array aangeeft. Als een vakje uit het derde array niet voorkomt in de eerste twee dan wordt op het scherm 'Niet gevonden!' afgedrukt, maar wel maximaal 1 keer.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[] nummers = {1, 3, 3, 4, 5};\n       int[] nummers2 = {1, 2, 3, 4, 5};\n       int[] vakjes = {0, 6, 4, 8};\n       doe(nummers, nummers2, vakjes); //ja niet gevonden\n       int[] nummers3 = {1, 2, 3, 5, 5};\n       int[] nummers4 = {1, 2, 3, 4, 5};\n       int[] vakjes2 = {3};\n       doe(nummers3, nummers4, vakjes2); //nee\n   }\n}\n",
+        "video": "P14IABj2YeY"
+    },
+    {
+        "number": 166,
+        "category": "2D Arrays",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Schrijf een methode die het hele array afdrukt. Alles staat netjes op de juiste regel. Als parameter kan een seperator opgegeven worden die tussen de kolommen verschijnt.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[,] nummers = {   {1, 2, 3, 4},\n                            {5, 6, 7, 8},\n                            {9, 10, 11, 12}\n                            {13, 14, 15, 16},\n                        };\n        doe(nummers, ';');\n   }\n}",
+        "video": "mAFSccLJAqw"
+    },
+    {
+        "number": 167,
+        "category": "2D Arrays",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "In de puzzel 'Flats' stelt de inhoud van elke array vakje een flat voor. Het getal geeft aan hoeveel verdiepingen de flat heeft. Hogere flats zorgen ervoor dat lagere flats die erachter staan niet zichtbaar zijn. Schrijf een methode die voor kolom x vaststelt hoeveel flats je kan zien als je vanaf boven kijkt. Schrijf ook een methode die voor rijen hetzelfde doet vanaf links.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[,] nummers = {   {1, 2, 3, 4},\n                            {4, 3, 2, 1},\n                            {2, 4, 1, 3}\n                            {3, 1, 4, 2},\n                        };\n   }\n}",
+        "video": "mAFSccLJAqw"
+    },
+    {
+        "number": 168,
+        "category": "2D Arrays",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Schrijf een methode voor flats puzzels die bepaalt hoeveel flats er te zien zijn. Hierbij wordt aangegeven:\na) of het een rij (true) of kolom (false is)\nb) of het vanaf boven / links (true) of omgekeerd (false) moet\nc) welke rij/kolom het betreft.\nKopieer eventueel methoden uit de vorige opgave.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[,] nummers = {   {1, 2, 3, 4},\n                            {4, 3, 2, 1},\n                            {2, 4, 1, 3}\n                            {3, 1, 4, 2},\n                        };\n        doe(nummers, true, false, 3); //rij 3 vanaf rechts-->2\n   }\n}",
+        "video": "mAFSccLJAqw"
+    },
+    {
+        "number": 169,
+        "category": "2D Arrays",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Schrijf een methode die voor bepaalt in hoeveel rijen een getal x voorkomt. Doe hetzelfde voor kolommen",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[,] nummers = {   {1, 2, 3, 4},\n                            {4, 3, 2, 1},\n                            {2, 4, 1, 3}\n                            {3, 1, 4, 2},\n                        };\n        doerij(nummers, 2); //4\n        doekolom(nummers, 3); //4\n   }\n}",
+        "video": "mAFSccLJAqw"
+    },
+    {
+        "number": 170,
+        "category": "2D Arrays",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Bepaal voor een array of het een 'Latijns vierkant' betreft. Een Latijns vierkant is een vierkant waarbij ieder getal in elke regel en kolom precies 1 keer voorkomt. Je mag aannemen dat het array vierkant is. Gebruik de vorige opgaven.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[,] nummers = {   {1, 2, 3, 4},\n                            {4, 3, 2, 1},\n                            {2, 4, 1, 3}\n                            {3, 1, 4, 2},\n                        };//latijns!\n   }\n}",
+        "video": "mAFSccLJAqw"
+    },
+    {
+        "number": 171,
+        "category": "2D Arrays",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Schrijf een methode die aan de hand van een array (dat 'vanaf boven' aangeeft) of dat array een geldige 'flats-oplossing' is",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[,] nummers = {   {1, 2, 3, 4},\n                            {4, 3, 2, 1},\n                            {2, 4, 1, 3}\n                            {3, 1, 4, 2},\n                        };\n        int[] noord = {2,2,3,2};\n        doe(nummers, noord); //nee, noord voor nummers is 2,3,2,1\n   }\n}",
+        "video": "mAFSccLJAqw"
+    },
+    {
+        "number": 172,
+        "category": "2D Arrays",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Schrijf een methode die aan de hand van noord, zuid, oost en west bepaalt of een array een mogelijke oplossing is voor de flats-puzzel. Een oplossing moet ook altijd een Latijns vierkant zijn. Gebruik (natuurlijk) de vorige opgaven.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[,] nummers = {   {1, 2, 3, 4},\n                            {4, 3, 2, 1},\n                            {2, 4, 1, 3}\n                            {3, 1, 4, 2},\n                        };\n        int[] noord = {2,3,2,1};\n        int[] zuid = {2,2,1,3};\n        int[] oost = {1,4,2,2};\n        int[] west = {4,1,2,2};\n        doe(nummers, noord, zuid, oost, west); // ja, ook Latijns\n   }\n}",
+        "video": "mAFSccLJAqw"
+    },
+    {
+        "number": 173,
+        "category": "2D Arrays",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Het array stelt de huidige schaakstand van speler Zwart voor\nBepaal in een methode of het aantal schaakstukken klopt (niet meer dan het maximum per stuk, minimaal 1 koning)\n1: koning (1) 2: dame (1) 3: toren (2) 4: loper (2) 5: paard (2) 6: pion (8) 0: leeg",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[,] nummers = {   {0, 5, 3, 0},\n                            {0, 1, 3, 6},\n                            {5, 0, 4, 6}\n                            {0, 5, 0, 6},\n                        };\n        doe (nummers); //nee teveel paarden\n   }\n}",
+        "video": "mAFSccLJAqw"
+    },
+    {
+        "number": 174,
+        "category": "2D Arrays",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Bepaal in een methode of de koning door een pion geraakt kan worden. Dat kan als de pion er in een diagonaal vakje direct naast staat.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[,] nummers = {   {0, 5, 3, 0},\n                            {0, 1, 3, 6},\n                            {5, 0, 4, 6}\n                            {0, 5, 0, 6},\n                        };\n        doe (nummers); //nee, de pionnen staan ver weg\n   }\n}",
+        "video": "mAFSccLJAqw"
+    },
+    {
+        "number": 175,
+        "category": "2D Arrays",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Bepaal of de koning geraakt kan worden door een toren. Dat kan als een toren in een rechte lijn staat (horizontaal of verticaal)",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[,] nummers = {   {0, 5, 3, 0},\n                            {0, 1, 3, 6},\n                            {5, 0, 4, 6}\n                            {0, 5, 0, 6},\n                        };\n        doe (nummers); //ja, toren staat er direct naast\n   }\n}",
+        "video": "mAFSccLJAqw"
+    },
+    {
+        "number": 176,
+        "category": "2D Arrays",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Bepaal of de koning geraakt kan worden door een loper. Dat kan als een loper in een schuine lijn staat (vier richtingen).",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[,] nummers = {   {0, 5, 3, 0},\n                            {0, 1, 3, 6},\n                            {5, 0, 4, 6}\n                            {0, 5, 0, 6},\n                        };\n        doe (nummers); //ja, loper staat er schuin naast\n   }\n}",
+        "video": "mAFSccLJAqw"
+    },
+    {
+        "number": 177,
+        "category": "2D Arrays",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Bepaal of de koning geraakt kan worden door een dame. Dat kan als een dame in een rechte lijn of schuine lijn staat. Gebruik als je wil de methoden uit de opgaven hiervoor",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[,] nummers = {   {0, 5, 3, 2},\n                            {0, 1, 3, 6},\n                            {5, 0, 4, 6}\n                            {0, 5, 0, 6},\n                        };\n        doe (nummers); //nee, dame staat niet in rechte of schuine lijn\n   }\n}",
+        "video": "mAFSccLJAqw"
+    },
+    {
+        "number": 178,
+        "category": "2D Arrays",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Bepaal of de koning geraakt kan worden door een paard. Dat kan als een paard een paardensprong weg staat. Een paardensprong is 1 recht vakje opzij en daarna een schuin vakje opzij.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[,] nummers = {   {0, 5, 3, 0},\n                            {0, 1, 3, 6},\n                            {5, 0, 4, 6}\n                            {0, 5, 0, 6},\n                        };\n        doe (nummers); //nee, alledrie (teveel!) paarden staan verkeerd opgesteld\n   }\n}",
+        "video": "mAFSccLJAqw"
+    },
+    {
+        "number": 179,
+        "category": "2D Arrays",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Bepaal of het vakje (x,y) geraakt kan worden door een paard.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[,] nummers = {   {0, 5, 3, 0},\n                            {0, 1, 3, 6},\n                            {5, 0, 4, 6}\n                            {0, 5, 0, 6},\n                        };\n        doe (nummers, 2, 2); //ja, door de paarden op (0,1) en (1,0)\n   }\n}",
+        "video": "mAFSccLJAqw"
+    },
+    {
+        "number": 180,
+        "category": "2D Arrays",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Schrijf een methode die op het scherm alle coordinaten (in de vorm (... , ...)) op het scherm afdrukt van vakjes die door een paard geraakt kunnen worden. Gebruik eventueel methoden uit vorige opgaven.",
+        "requirements": "nvt",
+        "skeleton": "public class Arrays\n{\n   public static void Main()\n   {\n       int[,] nummers = {   {0, 5, 3, 0},\n                            {0, 1, 3, 6},\n                            {0, 0, 4, 6}\n                            {0, 5, 0, 6},\n                        };\n        doe (nummers); //(0,2) (2,2) (3,2) (0,1) (2,1) (3,1)\n   }\n}",
+        "video": "mAFSccLJAqw"
+    },
+    {
+        "number": 181,
+        "category": "List",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Maak een lijst met 10 dinosaurussen\n",
+        "requirements": "Sorteer alfabetisch op naam\n",
+        "skeleton": "public class ListDS\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "90n0vrS0X1s"
+    },
+    {
+        "number": 182,
+        "category": "List",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Maak een lijst met 10 dinosaurussen\n",
+        "requirements": "Sorteer op gewicht. De naamlengte van een dinosaurus geeft daarbij het gewicht weer.",
+        "skeleton": "public class ListDS\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "90n0vrS0X1s"
+    },
+    {
+        "number": 183,
+        "category": "List",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Maak een lijst met 100 random getallen\n",
+        "requirements": "Sorteer op grootte\n",
+        "skeleton": "public class ListDS\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "90n0vrS0X1s"
+    },
+    {
+        "number": 184,
+        "category": "List",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Maak een lijst met 10 planeten\n",
+        "requirements": "Sorteer alfabetisch op naam\n",
+        "skeleton": "public class ListDS\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "90n0vrS0X1s"
+    },
+    {
+        "number": 185,
+        "category": "List",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Maak een lijst met 10 planeten\n",
+        "requirements": "Sorteer op grootte, die wordt weergegeven door de som van de eerste twee letters van de naam, geconverteerd naar ascii waarden.\n",
+        "skeleton": "public class ListDS\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "90n0vrS0X1s"
+    },
+    {
+        "number": 186,
+        "category": "List",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Er rijden op een bepaald moment 50,000 auto's van Amsterdam naar Den Haag. Veroorzaak een grote file door een kapotte truuk helemaal vooraan te zetten. Neem aan dat er wegwerkzaamheden zijn, zodat er slechts 1 rijbaan beschikbaar  is, door alle voertuigen in 1 List op te nemen.\n",
+        "requirements": "nvt",
+        "skeleton": "public class ListDS\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "90n0vrS0X1s"
+    },
+    {
+        "number": 187,
+        "category": "List",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Laat elke dinosaurus op een even plek in de lijst van opgave 181 opgevreten worden door de 1e. Haal de lege plekken uit de lijst.\n",
+        "requirements": "nvt",
+        "skeleton": "public class ListDS\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "90n0vrS0X1s"
+    },
+    {
+        "number": 188,
+        "category": "List",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Laat elke planeet op een even plek in de lijst van opgave 184 imploderen. Haal de lege plekken uit de lijst.\n",
+        "requirements": "nvt",
+        "skeleton": "public class ListDS\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "90n0vrS0X1s"
+    },
+    {
+        "number": 189,
+        "category": "List",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Haal een geintje uit met oma in opgave 117 door in ieder drietal de pannenkoek met kaas te verwisselen met de pannenkoek met appel. Veronderstel grote honger dus 100 pannenkoeken.",
+        "requirements": "nvt\nnvt",
+        "skeleton": "public class ListDS\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "90n0vrS0X1s"
+    },
+    {
+        "number": 190,
+        "category": "List",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Stuur alle dinosaurussen uit opgave 181 naar de 3e planeet uit opgave 184 door de dinosaurussen toe te voegen in de lijst achter de planeet.\n",
+        "requirements": "nvt",
+        "skeleton": "public class ListDS\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "90n0vrS0X1s"
+    },
+    {
+        "number": 191,
+        "category": "List",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Druk voor een basisschool in Appingedam een lijst af met 10 jongens- en 10 meisjesnamen zodanig dat alle namen gesorteerd zijn en dat jongen en meisje om en om staan (gekruist).\n",
+        "requirements": "Gebruik 2 lijsten.",
+        "skeleton": "public class ListDS\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "90n0vrS0X1s"
+    },
+    {
+        "number": 192,
+        "category": "List",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Er rijden 50,000 auto's dagelijks van Amsterdam naar Den Haag. Verdeel al deze auto's mbv. een random nummer in een List. Neem 1 rijbaan aan. Verwijder auto #1 want deze wordt opgepikt door een helikopter. Zorg dat de auto's weer netjes aansluiten.",
+        "requirements": "nvt",
+        "skeleton": "public class ListDS\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "90n0vrS0X1s"
+    },
+    {
+        "number": 193,
+        "category": "List",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Er rijden op een bepaald moment 50,000 auto's van Amsterdam naar Den Haag. Veroorzaak een grote file door een kapotte truuk in de middelste baan helemaal vooraan te zetten. Los de file op door de auto's achter de pechtruuk gelijkmatig te verdelen over de 2 andere banen. Neem aan dat het een mooie zonnige dag is en dat er 3 rijbanen beschikbaar  zijn, door alle voertuigen in 3 Lists op te nemen.\n",
+        "requirements": "nvt",
+        "skeleton": "public class ListDS\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "90n0vrS0X1s"
+    },
+    {
+        "number": 194,
+        "category": "List",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Haal een geintje uit met oma in opgave 117 door alle kale pannenoeken onderop te leggen.\n",
+        "requirements": "Veronderstel grote honger dus 100 pannekoeken.\n",
+        "skeleton": "",
+        "video": "90n0vrS0X1s"
+    },
+    {
+        "number": 195,
+        "category": "List",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Er rijden op een bepaald moment 50,000 auto's van Amsterdam naar Den Haag. Veroorzaak een grote file door een kapotte truuk in zowel de middelste als rechterbaan helemaal vooraan te zetten. Los de file op door de auto's achter de 2 pechtruuks gelijkmatig te verdelen over de andere baan. Neem aan dat het een mooie zonnige dag is en dat er 3 rijbanen beschikbaar  zijn, door alle voertuigen in 3 Lists op te nemen.\n",
+        "requirements": "nvt",
+        "skeleton": "public class ListDS\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "90n0vrS0X1s"
+    },
+    {
+        "number": 196,
+        "category": "Dictionary",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Maak een Dictionary waar namen in geteld kunnen worden (dus hoe vaak komt een naam voor)",
+        "requirements": "nvt",
+        "skeleton": "public class Dictionaries\n{\n\tpublic static void Main()\n\t{\n\n\t}\n}",
+        "video": "CIXA-RGR8OA"
+    },
+    {
+        "number": 197,
+        "category": "Dictionary",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Maak een Dictionary waar het aantal keer dat een getal in de reeks voorkomt kan worden geteld.",
+        "requirements": "nvt",
+        "skeleton": "public class Dictionaries\n{\n\tpublic static void Main()\n\t{\n        string sequenceOfNumbers = \"89734273464387634598231\";\n\t}\n}",
+        "video": "CIXA-RGR8OA"
+    },
+    {
+        "number": 198,
+        "category": "Dictionary",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Druk de hoeveelheid gold af",
+        "requirements": "nvt",
+        "skeleton": "using System.Collections.Generic;\n\npublic class Dictionaries\n{\n\tpublic static void Main()\n\t{\n        Dictionary<string, int> inventory = new Dictionary<string, int>();\n        inventory.Add(\"Copper\", 100);\n        inventory.Add(\"Silver\", 59);\n        inventory.Add(\"Gold\", 11);\n\t}\n}",
+        "video": "CIXA-RGR8OA"
+    },
+    {
+        "number": 199,
+        "category": "Dictionary",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Maak de code werkend (declareer de Dictionary die nodig is om de functies op uit te voeren)",
+        "requirements": "nvt",
+        "skeleton": "public class Dictionaries\n{\n\tpublic static void Main()\n\t{\n        //FIXME: Forgot to declare the dictionary :(\n        \n        dict.Add(1.2f, 2.3);\n        dict.Add(5.2f, 12.3);\n        dict.Add(4.2f, 3.14);\n        dict.Add(13.24f, 9.001);\n\t}\n}",
+        "video": "CIXA-RGR8OA"
+    },
+    {
+        "number": 200,
+        "category": "Dictionary",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Maakt een dictionary die de onderstaande data kan opslaan \n\nSuper Mario World, 500 punten\nCall of Duty, 250 punten\nFallout4, 300 punten\nWorld of warcraft, 900 punten\n",
+        "requirements": "nvt",
+        "skeleton": "public class Dictionaries\n{\n\tpublic static void Main()\n\t{\n\n\t}\n}",
+        "video": "CIXA-RGR8OA"
+    },
+    {
+        "number": 201,
+        "category": "Dictionary",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Wat is een goede dictionary om studenten in bij te houden? (geef type key en type value)",
+        "requirements": "nvt",
+        "skeleton": "public class Dictionaries\n{\n\tpublic static void Main()\n\t{\n\n\t}\n}",
+        "video": "CIXA-RGR8OA"
+    },
+    {
+        "number": 202,
+        "category": "Dictionary",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Als je in een inventory stacked items (meerdere van hetzelfde soort) bij kan houden, hoe zou je dat in een Dictionary opslaan?\nBijvoorbeeld: \nArrows - 200 pieces\nBroadSword - 1\nManaPotions - 23 pieces\n",
+        "requirements": "nvt",
+        "skeleton": "public class Dictionaries\n{\n\tpublic static void Main()\n\t{\n\n\t}\n}",
+        "video": "CIXA-RGR8OA"
+    },
+    {
+        "number": 203,
+        "category": "Dictionary",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Voeg in de gegeven dictionary twee keer een object toe met dezelfde key, wat is de uitkomst?\nBedenk zelf een dictionary waarin je gaat testen",
+        "requirements": "Vang een eventuele error netjes op",
+        "skeleton": "public class Dictionaries\n{\n\tpublic static void Main()\n\t{\n\n\t}\n}",
+        "video": "CIXA-RGR8OA"
+    },
+    {
+        "number": 204,
+        "category": "Dictionary",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Gegeven de Dictionary, itereer over de inhoud en druk alles af",
+        "requirements": "Los ook de error op die in de code zit",
+        "skeleton": "public class Dictionaries\n{\n\tpublic static void Main()\n\t{\n        Dictionary<string, string> enemies = new Dictionary<string, string>();\n        enemies.Add(\"Voldemort\", \"Mage\");\n        enemies.Add(\"Henk\", \"Warrior\");\n        enemies.Add(\"Hulfdan Blackbeard\", \"Rogue\",;\n        enemies.Add(\"Elminster\", \"Mage\");\n        enemies.Add(\"Conan\", \"Warrior\");\n\t}\n}",
+        "video": "CIXA-RGR8OA"
+    },
+    {
+        "number": 205,
+        "category": "Dictionary",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Schrijf een functie die in de gegeven dictionary alle KEYS returned met een VALUE van 3",
+        "requirements": "nvt",
+        "skeleton": "public class Dictionaries\n{\n\tpublic static void Main()\n\t{\n        Dictionary<string, int> abstractObject = new Dictionary<string, int>();\n        abstractObject.Add(\"cirkel\", 2);\n        abstractObject.Add(\"auto\", 3);\n        abstractObject.Add(\"vliegtuig\", 9);\n        abstractObject.Add(\"paard\", 3);\n        abstractObject.Add(\"kerstboom\", 1);\n\t}\n}",
+        "video": "CIXA-RGR8OA"
+    },
+    {
+        "number": 206,
+        "category": "Dictionary",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Tel de letters in de gegeven string",
+        "requirements": "Gebruik hier natuurlijk een Dictionary voor",
+        "skeleton": "public class Dictionaries\n{\n\tpublic static void Main()\n\t{\n        string input = \"Goldshire is the second human town that most human characters visit during their adventures\";\n\t}\n}",
+        "video": "CIXA-RGR8OA"
+    },
+    {
+        "number": 207,
+        "category": "Dictionary",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Maak een dictionary waarin dictionaries worden bijgehouden.\nDe eerste dictionary houdt enemies (string) en hun klasse bij (string)\nDe tweede dictionary waar die enemies in zitten telt het aantal sets van spawning enemy groups by (value daarin is dus een int)\nJe creeert dus een set van enemies (eerste dictionary) met een percentage kans dat die groep spawnt (tweede dictionary)",
+        "requirements": "Alleen al het begrijpen van de opdracht zou een punt waard moeten zijn :)",
+        "skeleton": "using System.Collections.Generic;\n\npublic class Dictionaries\n{\n\tpublic static void Main()\n\t{\n\n\t}\n}",
+        "video": "CIXA-RGR8OA"
+    },
+    {
+        "number": 208,
+        "category": "Dictionary",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Sorteer de gegeven dictionary op de keys",
+        "requirements": "nvt",
+        "skeleton": "using System.Collections.Generic;\n\npublic class Dictionaries\n{\n\tpublic static void Main()\n\t{\n        Dictionary<string, int> initialValues = new Dictionary<string, int>();\n        initialValues.Add(\"Warrior\", 500);\n        initialValues.Add(\"Mage\", 125);\n        initialValues.Add(\"Rogue\", 250);\n        initialValues.Add(\"Paladin\", 450);\n        initialValues.Add(\"Huntart\", 385);\n        initialValues.Add(\"Priest\", 50);\n\t}\n}",
+        "video": "CIXA-RGR8OA"
+    },
+    {
+        "number": 209,
+        "category": "Dictionary",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Sorteer de gegeven dictionary op de values",
+        "requirements": "nvt",
+        "skeleton": "using System.Collections.Generic;\n\npublic class Dictionaries\n{\n\tpublic static void Main()\n\t{\n        Dictionary<string, int> initialValues = new Dictionary<string, int>();\n        initialValues.Add(\"Warrior\", 500);\n        initialValues.Add(\"Mage\", 125);\n        initialValues.Add(\"Rogue\", 250);\n        initialValues.Add(\"Paladin\", 450);\n        initialValues.Add(\"Huntart\", 385);\n        initialValues.Add(\"Priest\", 50);\n\t}\n}",
+        "video": "CIXA-RGR8OA"
+    },
+    {
+        "number": 210,
+        "category": "Dictionary",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Schrijf een functie die alle values terug geeft als die groter is dan 250",
+        "requirements": "nvt",
+        "skeleton": "using System.Collections.Generic;\n\npublic class Dictionaries\n{\n\tpublic static void Main()\n\t{\n        Dictionary<string, int> initialValues = new Dictionary<string, int>();\n        initialValues.Add(\"Warrior\", 500);\n        initialValues.Add(\"Mage\", 125);\n        initialValues.Add(\"Rogue\", 250);\n        initialValues.Add(\"Paladin\", 450);\n        initialValues.Add(\"Huntart\", 385);\n        initialValues.Add(\"Priest\", 50);\n\t}\n}",
+        "video": "CIXA-RGR8OA"
+    },
+    {
+        "number": 211,
+        "category": "foreach",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Druk alle dinosaurussen uit opgave 181 af.\n",
+        "requirements": "Gebruik foreach.\n",
+        "skeleton": "public class ForeachLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "Ks4iPpNOjac"
+    },
+    {
+        "number": 212,
+        "category": "foreach",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Druk alle planeten uit opgave 184 af.\n",
+        "requirements": "Gebruik foreach.\n",
+        "skeleton": "public class ForeachLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "Ks4iPpNOjac"
+    },
+    {
+        "number": 213,
+        "category": "foreach",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Sla 7 dieren op in een string array en druk elke dierennaam af. \n",
+        "requirements": "Gebruik foreach.\n",
+        "skeleton": "public class ForeachLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "Ks4iPpNOjac"
+    },
+    {
+        "number": 214,
+        "category": "foreach",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Sla 7 namen van beroemde uitvinders op in een string array en druk elke naam af. \n",
+        "requirements": "Gebruik foreach.",
+        "skeleton": "public class ForeachLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "Ks4iPpNOjac"
+    },
+    {
+        "number": 215,
+        "category": "foreach",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Sla 7 namen van beroemde programmeerguru's op in een string array en druk elke naam af. \n",
+        "requirements": "Gebruik foreach.\n",
+        "skeleton": "public class ForeachLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "Ks4iPpNOjac"
+    },
+    {
+        "number": 216,
+        "category": "foreach",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Sla appel, peer, sinaasappel en pudding, brood, croissant op in 2 arrays en druk alle combinaties af.",
+        "requirements": "Gebruik 2x foreach.",
+        "skeleton": "public class ForeachLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "Ks4iPpNOjac"
+    },
+    {
+        "number": 217,
+        "category": "foreach",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Sla japans, chinees, frans, spaans en glas, bestek, bord, beker op in 2 arrays en druk alle combinaties af.\n",
+        "requirements": "Gebruik 2x foreach.\n",
+        "skeleton": "public class ForeachLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "Ks4iPpNOjac"
+    },
+    {
+        "number": 218,
+        "category": "foreach",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Sla 7 voor- en achternamen op in twee string arrays en druk alle combinaties af. \n",
+        "requirements": "Gebruik 2x foreach.\n",
+        "skeleton": "public class ForeachLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "Ks4iPpNOjac"
+    },
+    {
+        "number": 219,
+        "category": "foreach",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Sla Jan, Piet, Wilma en Amsterdam, Rotterdam, Den Haag op in 2 arrays en druk alle wooncombinaties af. \n",
+        "requirements": "Gebruik \"woont in\".",
+        "skeleton": "public class ForeachLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "Ks4iPpNOjac"
+    },
+    {
+        "number": 220,
+        "category": "foreach",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Zet alle programmeerguru's uit opgave 215 op de rug van een dier uit opgave 213.\n",
+        "requirements": "nvt",
+        "skeleton": "public class ForeachLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "Ks4iPpNOjac"
+    },
+    {
+        "number": 221,
+        "category": "foreach",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Sla appel, peer, sinaasappel en pudding, brood, croissant en taart, deeg, cake  op in 3 arrays en druk alle combinaties af.\n",
+        "requirements": "Gebruik 3x foreach.\n",
+        "skeleton": "public class ForeachLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "Ks4iPpNOjac"
+    },
+    {
+        "number": 222,
+        "category": "foreach",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Sla wij, jullie, zij en werken, studeren, programmeren en hard, super, relaxed op in 3 arrays en druk alle combinaties af.\n",
+        "requirements": "Gebruik 3x foreach.\n",
+        "skeleton": "public class ForeachLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "Ks4iPpNOjac"
+    },
+    {
+        "number": 223,
+        "category": "foreach",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Als opgave 191 maar nu met foreach.\n",
+        "requirements": "foreach",
+        "skeleton": "public class ForeachLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "Ks4iPpNOjac"
+    },
+    {
+        "number": 224,
+        "category": "foreach",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Als opgave 191 maar nu met foreach en zonder te kruizen.\n",
+        "requirements": "foreach",
+        "skeleton": "public class ForeachLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "Ks4iPpNOjac"
+    },
+    {
+        "number": 225,
+        "category": "foreach",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Zet alle programmeerguru's uit opgave 215 op de rug van een dier uit opgave 213 en laat ze ook iets eten uit opgave 221.",
+        "requirements": "nvt",
+        "skeleton": "public class ForeachLoop\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "Ks4iPpNOjac"
+    },
+    {
+        "number": 226,
+        "category": "Methoden",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Schrijf een functie die \"Hello World!\" afdrukt",
+        "requirements": "Niet in de Main functie afdrukken, maar een functie aanroepen",
+        "skeleton": "public class Methods\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "cVSIr_VmpgY"
+    },
+    {
+        "number": 227,
+        "category": "Methoden",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Schrijf een functie die twee integers bij elkaar optelt (lokaal)",
+        "requirements": "Geen parameters gebruiken (je weet nog niet wat dat zijn :))",
+        "skeleton": "public class Methods\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "cVSIr_VmpgY"
+    },
+    {
+        "number": 228,
+        "category": "Methoden",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Schrijf een funtie die controleert of een bool true is en dan \"WAAR\" afdrukt",
+        "requirements": "nvt",
+        "skeleton": "public class Methods\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "cVSIr_VmpgY"
+    },
+    {
+        "number": 229,
+        "category": "Methoden",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Schrijf een functie die NIKS doet",
+        "requirements": "nvt (het wordt zo wel ERG makkelijk...)",
+        "skeleton": "public class Methods\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "cVSIr_VmpgY"
+    },
+    {
+        "number": 230,
+        "category": "Methoden",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Schrijf een methode die 1 optelt bij een lokale variabele",
+        "requirements": "nvt (waarom doen we dit???)",
+        "skeleton": "public class Methods\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "cVSIr_VmpgY"
+    },
+    {
+        "number": 231,
+        "category": "Methoden",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Roep de gegeven functie aan",
+        "requirements": "nvt",
+        "skeleton": "public class Methods\n{\n   public static void Main()\n   {\n      \n   }\n   \n   ///<summary>Add one to the given number and do nothing with it</summary>\n   ///<param name=\"number\">The number to increment with exactly 1</param>\n   public void AddOne(int number)\n   {\n       int local = number + 1;\n   }\n}",
+        "video": "cVSIr_VmpgY"
+    },
+    {
+        "number": 232,
+        "category": "Methoden",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Roep de opgegeven functie aan",
+        "requirements": "nvt",
+        "skeleton": "public class Methods\n{\n   public static void Main()\n   {\n      \n   }\n   \n   ///<summary>Returns a static amount of gold</summary>\n   ///<returns>20 gold</returns>\n   public int GiveGold()\n   {\n       return 20;\n   }\n}",
+        "video": "cVSIr_VmpgY"
+    },
+    {
+        "number": 233,
+        "category": "Methoden",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Druk \"Still alive\" af als the methode \"IsAlive\" true returnt",
+        "requirements": "Gebruik geen extra locale variabele in de Main functie",
+        "skeleton": "public class Methods\n{\n   public static void Main()\n   {\n      \n   }\n   \n   ///<remarks>ALWAYS returns true</remarks>\n   public bool IsAlive()\n   {\n       return true;\n   }\n}",
+        "video": "cVSIr_VmpgY"
+    },
+    {
+        "number": 234,
+        "category": "Methoden",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Scrijf een methode die de eerste 15 getallen in de rij van Fibonacci afdrukt",
+        "requirements": "nvt (wie is die gast?)",
+        "skeleton": "public class Methods\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "cVSIr_VmpgY"
+    },
+    {
+        "number": 235,
+        "category": "Methoden",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Schrijf een functie die Attacking heet en altijd false returnt en een functie die \"Attacking\" print naar de Console als Attacking true teruggeeft",
+        "requirements": "nvt",
+        "skeleton": "public class Methods\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "cVSIr_VmpgY"
+    },
+    {
+        "number": 236,
+        "category": "Methoden",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Schrijf een methode die de gegeven methode (PrintStuff) aanroept",
+        "requirements": "Roep jouw methoden aan vauit de Main",
+        "skeleton": "public class Methods\n{\n   public static void Main()\n   {\n      \n   }\n   \n   ///<summary>Print very important stuff to the console</summary>\n   private void PrintStuff()\n   {\n       System.Console.WriteLine(\"I'm printing!!!!\");\n   }\n}",
+        "video": "cVSIr_VmpgY"
+    },
+    {
+        "number": 237,
+        "category": "Methoden",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Combineer drie methode aanroepen om op 42 uit te komen",
+        "requirements": "nvt",
+        "skeleton": "public class Methods\n{\n    public static void Main()\n    {\n        //FIXME: Do intelligent stuff here\n    }\n   \n    public int MethodOne()\n    {\n       return 9;\n    }\n   \n    public int MethodTwo()\n    {\n        return 3;\n    }\n    \n    public int MethodThree()\n    {\n        return 10;\n    }    \n}",
+        "video": "cVSIr_VmpgY"
+    },
+    {
+        "number": 238,
+        "category": "Methoden",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Kan Piet nu Damage doen?\nSchrijf je antwoord in commentaar",
+        "requirements": "nvt",
+        "skeleton": "public class Entity\n{\n    protected int Position()\n    {\n        return 10;\n    }\n    \n    private double Damage()\n    {\n        return 12.34;\n    }\n}\n\npublic class Mage : public Entity\n{\n    \n}\n\npublic class Methods\n{\n   public static void Main()\n   {\n      Mage Piet = new Mage();\n   }\n}\n//Antwoord: ",
+        "video": "cVSIr_VmpgY"
+    },
+    {
+        "number": 239,
+        "category": "Methoden",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Kan Piet zijn Position aanroepen?\nSchrijf je antwoord in commentaar",
+        "requirements": "nvt",
+        "skeleton": "public class Entity\n{\n    protected int Position()\n    {\n        return 10;\n    }\n    \n    private double Damage()\n    {\n        return 12.34;\n    }\n}\n\npublic class Mage : public Entity\n{\n    \n}\n\npublic class Methods\n{\n   public static void Main()\n   {\n      Mage Piet = new Mage();\n   }\n}\n//Antwoord: ",
+        "video": "cVSIr_VmpgY"
+    },
+    {
+        "number": 240,
+        "category": "Methoden",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Schrijf een methode die twee binnenkomende integers opteld en terug geeft",
+        "requirements": "Roep de functie ook aan met testdata",
+        "skeleton": "public class Methods\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "cVSIr_VmpgY"
+    },
+    {
+        "number": 241,
+        "category": "Parameters",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Schrijf een functie die een binnenkomende int afdrukt naar het Console",
+        "requirements": "nvt",
+        "skeleton": "public class Parameters\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "8nIJOgN4wzs"
+    },
+    {
+        "number": 242,
+        "category": "Parameters",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Schrijf een functie die een int en een double binnen krijgt en bij elkaar optelt",
+        "requirements": "nvt",
+        "skeleton": "public class Parameters\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "8nIJOgN4wzs"
+    },
+    {
+        "number": 243,
+        "category": "Parameters",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Maak de gegeven functie af en roep hem aan vanuit de Main functie",
+        "requirements": "nvt",
+        "skeleton": "public class Parameters\n{\n   public static void Main()\n   {\n      \n   }\n   \n   ///<summary>The function reduces the amount of damage with the given armor and then multiplies the outcome with the given multiplier</summary>\n   ///<param name=\"amount\">The amount of incomming damage</param>\n   ///<param name=\"armor\">The armor value, reduces the amount of damage</param>\n   ///<param name=\"multiplier\">The multiplier, dependant on the type of damage done</param>\n   ///<returns>The total calculated damage, taking armor and multiplier into account</returns>\n   public int Damage(int amount, int armor, int multiplier)\n   {\n       //FIXME: Forgot the implementation\n   }\n}",
+        "video": "8nIJOgN4wzs"
+    },
+    {
+        "number": 244,
+        "category": "Parameters",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Schrijf een functie die true returnd asl de binnenkomende integer groter is dan 10, false in alle andere gevallen",
+        "requirements": "nvt",
+        "skeleton": "public class Parameters\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "8nIJOgN4wzs"
+    },
+    {
+        "number": 245,
+        "category": "Parameters",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Schrijf een functie die \"You won this battle\" terug geeft",
+        "requirements": "nvt",
+        "skeleton": "public class Parameters\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "8nIJOgN4wzs"
+    },
+    {
+        "number": 246,
+        "category": "Parameters",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Schrijf een functie die de damage van het wapen doet aan de mage. Weapon en Mage zijn parameters van die functie",
+        "requirements": "nvt",
+        "skeleton": "public class Mage\n{\n    public int Hitpoints;\n    \n    ///<summary>Constructor</summary>\n    public Mage()\n    {\n        Hitpoints = 5000;\n    }\n}\n\npublic class Weapon\n{\n    public int Damage;\n    public string Name;\n    \n    ///<summary>Constructor</summary>\n    public Weapon()\n    {\n        Damage = 117;\n        Name = \"Ashbringer\";\n    }\n}\n\npublic class Parameters\n{\n   public static void Main()\n   {\n      Mage Piet = new Mage();\n      Weapon TheOne = new Weapon();\n   }\n}",
+        "video": "8nIJOgN4wzs"
+    },
+    {
+        "number": 247,
+        "category": "Parameters",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Schrijf een functie die  het binnenkomende wapen 10% meer damage laat doen",
+        "requirements": "nvt",
+        "skeleton": "public class Mage\n{\n    public int Hitpoints;\n    \n    ///<summary>Constructor</summary>\n    public Mage()\n    {\n        Hitpoints = 5000;\n    }\n}\n\npublic class Weapon\n{\n    public int Damage;\n    public string Name;\n    \n    ///<summary>Constructor</summary>\n    public Weapon()\n    {\n        Damage = 117;\n        Name = \"Ashbringer\";\n    }\n}\n\npublic class Parameters\n{\n   public static void Main()\n   {\n      Mage Piet = new Mage();\n      Weapon TheOne = new Weapon();\n   }\n}",
+        "video": "8nIJOgN4wzs"
+    },
+    {
+        "number": 248,
+        "category": "Parameters",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Schrijf een functie die de naam van TheOne aanpast naar: \"Corrupted Ashbringer\"",
+        "requirements": "nvt",
+        "skeleton": "public class Mage\n{\n    public int Hitpoints;\n    \n    ///<summary>Constructor</summary>\n    public Mage()\n    {\n        Hitpoints = 5000;\n    }\n}\n\npublic class Weapon\n{\n    public int Damage;\n    public string Name;\n    \n    ///<summary>Constructor</summary>\n    public Weapon()\n    {\n        Damage = 117;\n        Name = \"Ashbringer\";\n    }\n}\n\npublic class Parameters\n{\n   public static void Main()\n   {\n      Mage Piet = new Mage();\n      Weapon TheOne = new Weapon();\n   }\n}",
+        "video": "8nIJOgN4wzs"
+    },
+    {
+        "number": 249,
+        "category": "Parameters",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Schrijf een functie die telt (en afdrukt naar het Console) hoe vaak je je Piet moet slaan met TheOne om hem dood te maken.",
+        "requirements": "nvt",
+        "skeleton": "public class Mage\n{\n    public int Hitpoints;\n    \n    ///<summary>Constructor</summary>\n    public Mage()\n    {\n        Hitpoints = 5000;\n    }\n}\n\npublic class Weapon\n{\n    public int Damage;\n    public string Name;\n    \n    ///<summary>Constructor</summary>\n    public Weapon()\n    {\n        Damage = 117;\n        Name = \"Ashbringer\";\n    }\n}\n\npublic class Parameters\n{\n   public static void Main()\n   {\n      Mage Piet = new Mage();\n      Weapon TheOne = new Weapon();\n   }\n}",
+        "video": "8nIJOgN4wzs"
+    },
+    {
+        "number": 250,
+        "category": "Parameters",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Schrijf een functie die controleerd of het binnenkomende getal (int) een veelvoud is van 2. Het antwoord wordt gereteurnd",
+        "requirements": "nvt",
+        "skeleton": "public class Parameters\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "8nIJOgN4wzs"
+    },
+    {
+        "number": 251,
+        "category": "Parameters",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Schrijf een functie die true terug geeft als het binnenkomende getal (int) groter is dan 10 EN het getal ook vermenigvuldigd met zichzelf",
+        "requirements": "nvt",
+        "skeleton": "public class Parameters\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "8nIJOgN4wzs"
+    },
+    {
+        "number": 252,
+        "category": "Parameters",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Schrijf een functie die drie strings terug geeft. De inhoud van de strings worden geset in de functie zelf en in de Main functie afgedrukt naar het Console",
+        "requirements": "nvt",
+        "skeleton": "public class Parameters\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "8nIJOgN4wzs"
+    },
+    {
+        "number": 253,
+        "category": "Parameters",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Voeg in een functie een element toe aan de gegeven Dictionary",
+        "requirements": "nvt",
+        "skeleton": "using System.Collections.Generic;\n\npublic class Parameters\n{\n   public static void Main()\n   {\n        Dictionary<string int> items = new Dictionary<string int>();\n        items.Add(\"Apples\", 5);\n        items.Add(\"Airplanes\", 1);\n        items.Add(\"Boats\", 25);\n        items.Add(\"Horse\", 2);\n   }\n}",
+        "video": "8nIJOgN4wzs"
+    },
+    {
+        "number": 254,
+        "category": "Parameters",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Schrijf een functie die true returnd als beide binnenkomende bools true zijn, false in alle andere gevallen",
+        "requirements": "nvt",
+        "skeleton": "public class Parameters\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "8nIJOgN4wzs"
+    },
+    {
+        "number": 255,
+        "category": "Parameters",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Schrijf een functie die een List aanmaakt(en vult met test data) en die terug geeft aan de Main functie. In de Main wordt er over de List geitereerd en alle waardes afgedrukt",
+        "requirements": "nvt",
+        "skeleton": "public class Parameters\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "8nIJOgN4wzs"
+    },
+    {
+        "number": 256,
+        "category": "Scoping",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Declareer een integer in de scop van de Main functie",
+        "requirements": "nvt",
+        "skeleton": "public class Scoping\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "qNRqAWJNgnw"
+    },
+    {
+        "number": 257,
+        "category": "Scoping",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Declareer een double in de scope van de class \"Scoping\"",
+        "requirements": "nvt",
+        "skeleton": "public class Scoping\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "qNRqAWJNgnw"
+    },
+    {
+        "number": 258,
+        "category": "Scoping",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Declareer een float in de scope van de class \"Scoping\" zodat hij NIET in een andere class kan worden aangepast",
+        "requirements": "nvt",
+        "skeleton": "public class Scoping\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "qNRqAWJNgnw"
+    },
+    {
+        "number": 259,
+        "category": "Scoping",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Declareer een long in de class \"Scoping\" en geef die variabele een waarde in de functie Main",
+        "requirements": "nvt",
+        "skeleton": "public class Scoping\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "qNRqAWJNgnw"
+    },
+    {
+        "number": 260,
+        "category": "Scoping",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Print de waarde van Hitpoints af in de Main functie",
+        "requirements": "nvt",
+        "skeleton": "public class Paladin\n{\n    public int Hitpoints = 100;\n}\n\npublic class Scoping\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "qNRqAWJNgnw"
+    },
+    {
+        "number": 261,
+        "category": "Scoping",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Maak de codeFF werkend door de juiste namespace te declareren",
+        "requirements": "Zet de juiste using namespace op regel 1",
+        "skeleton": "public class Scoping\n{\n   public static void Main()\n   {\n       //Check if logging is enabled\n        Debugger.IsLogging(); //FIXME: This isn't working\n   }\n}",
+        "video": "qNRqAWJNgnw"
+    },
+    {
+        "number": 262,
+        "category": "Scoping",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Maak de regel met Floor zo kort mogelijk door de juiste namespace te declaren",
+        "requirements": "nvt",
+        "skeleton": "public class Scoping\n{\n   public static void Main()\n   {\n       float damage = 12.25;\n       int roundedDmg = System.Math.Floor(damage); //FIXME: Shorten this\n   }\n}",
+        "video": "qNRqAWJNgnw"
+    },
+    {
+        "number": 263,
+        "category": "Scoping",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Zorg ervoor dat de gegeven code werkt",
+        "requirements": "nvt",
+        "skeleton": "class Paladin\n{\n    public int Strength = 10;\n}\n\npublic class Scoping\n{\n   public static void Main()\n   {\n       //FIXME: This isn't working...\n      Paladin Eldan = new Paladin();\n      Eldan.Strength *= 1.5;\n   }\n}",
+        "video": "qNRqAWJNgnw"
+    },
+    {
+        "number": 264,
+        "category": "Scoping",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Zorg ervoor dat de functie \"IncreaseGoldByOne\" werkt. Eldan moet meer gold krijgen na het uitvoeren van de functie",
+        "requirements": "nvt",
+        "skeleton": "public class Paladin\n{\n    public int gold = 12;\n}\npublic class Scoping\n{\n   public static void Main()\n   {\n      Paladin Eldan = new Paladin;\n      IncreaseGoldByOne(Eldan.gold); //FIXME: THis doesn't work, but I want more gold... :(\n   }\n   \n   public void IncreaseGoldByOne(int gold)\n   {\n       int goldToIncrease = gold;\n       goldToIncrease++;\n   }\n}",
+        "video": "qNRqAWJNgnw"
+    },
+    {
+        "number": 265,
+        "category": "Scoping",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Los de \"logische bug\" op",
+        "requirements": "nvt",
+        "skeleton": "public class Scoping\n{\n   public static void Main()\n   {\n      int number = Foo(10);\n   }\n   \n   void Foo(int a)\n    {\n        int count = 0;\n        \n        for(int i = 0; i < a; ++i)\n        {\n            int count *= i;\n        }\n        return count;\n    }\n}",
+        "video": "qNRqAWJNgnw"
+    },
+    {
+        "number": 266,
+        "category": "Scoping",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Geef in commentaar aan waar de variabele \"reader\" wordt aangeboden aan de garbage collector.\nDe code zal sowieso een error terug geven als je hem runt (file.txt is een voorbeeld, en bestaat niet) dat is niet erg",
+        "requirements": "nvt (hmmm, allemaal nieuwe termen)",
+        "skeleton": "public class Scoping\n{\n   public static void Main()\n   {\n        using (StreamReader reader = new StreamReader(\"file.txt\"))\n    \t{\n    \t    line = reader.ReadLine();\n    \t}\n    \tConsole.WriteLine(line);      \n   }\n}\n",
+        "video": "qNRqAWJNgnw"
+    },
+    {
+        "number": 267,
+        "category": "Scoping",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Declareer in de class Scoping een variabele die in in de gehele DLL benaderbaar is (dus niet private of protected, maar iets anders)",
+        "requirements": "nvt",
+        "skeleton": "public class Scoping\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "qNRqAWJNgnw"
+    },
+    {
+        "number": 268,
+        "category": "Scoping",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Zorg ervoor dat de class Scoping bij de variabele \"_doNotTouchThis\" kan van de class Paladin",
+        "requirements": "nvt",
+        "skeleton": "public class Paladin\n{\n    private int _doNotTouchThis = 1337;\n}\n\npublic class Scoping\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "qNRqAWJNgnw"
+    },
+    {
+        "number": 269,
+        "category": "Scoping",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Declareer de juiste namespace zodat de onderstaande code geen errors opleverd.",
+        "requirements": "nvt",
+        "skeleton": "public class Scoping\n{\n   public static void Main()\n   {\n      StreamReader levelLoader = new StreamReader();\n   }\n}",
+        "video": "qNRqAWJNgnw"
+    },
+    {
+        "number": 270,
+        "category": "Scoping",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "We missen vele namespaces. Het uitzoeken welke waar in zit is belangrijk",
+        "requirements": "nvt (meer van hetzelfde, maar nu allemaal bij elkaar)",
+        "skeleton": "public class Scoping\n{\n   public static void Main()\n   {\n        Dictionary<int, int> weapons;\n        StreamReader loader;\n        List<Vector3> position;\n        CultureInfo currentCulture;\n   }\n}",
+        "video": "qNRqAWJNgnw"
+    },
+    {
+        "number": 271,
+        "category": "Recursie",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Schrijf een methode die getallen 1 t/m x afdrukt.",
+        "requirements": "Recursief.",
+        "skeleton": "public class Recursie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "xiwKpuHimKY"
+    },
+    {
+        "number": 272,
+        "category": "Recursie",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Schrijf een methode die x t/m 1 afdrukt.",
+        "requirements": "Recursief.",
+        "skeleton": "public class Recursie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "xiwKpuHimKY"
+    },
+    {
+        "number": 273,
+        "category": "Recursie",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Schrijf een methode die getal x zoekt in een geordend array en de index teruggeeft. Gebruik hier de methode van in het midden van het array kijken en bij groter dan rechts doorgaan en bij kleiner dan links doorgaan. vervolgens dezelfde truc herhalen.",
+        "requirements": "Recursief.",
+        "skeleton": "public class Recursie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "xiwKpuHimKY"
+    },
+    {
+        "number": 274,
+        "category": "Recursie",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Schrijf een methode die op het scherm afdrukt voor x schapen. (denk aan de tabs!):\nSchaap 1 springt.\n     Schaap 2 springt.\n          Schaap 3 springt\n          Schaap 3 komt neer\n     Schaap 2 komt neer\nSchaap 1 komt neer\n",
+        "requirements": "Recursief.",
+        "skeleton": "public class Recursie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "xiwKpuHimKY"
+    },
+    {
+        "number": 275,
+        "category": "Recursie",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Schrijf een methode die bepaalt of een mannetje (1) een rij dozen (2) naar rechts kan duwen. Dat kan als er naast het mannetje minimaal 1 doos staat gevolgd door een leeg vakje (0).",
+        "requirements": "Recursief.",
+        "skeleton": "public class Recursie\n{\n   public static void Main()\n   {\n      int[] duwen = {1,2,2,2,0}; //ja\n      int[] duwen2 = {0,1,2,2} // nee, geen leeg vakje\n      int[] duwen2 = {1,0,2,2} // nee, geen dozen naast mannetje\n   }\n}",
+        "video": "xiwKpuHimKY"
+    },
+    {
+        "number": 276,
+        "category": "Recursie",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Schrijf een methode die als resultaat voor getal x oplevert: 1/1 + 1/2 + 1/3 + 1/4 + ... + 1/x",
+        "requirements": "Recursief.",
+        "skeleton": "public class Recursie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "xiwKpuHimKY"
+    },
+    {
+        "number": 277,
+        "category": "Recursie",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Schrijf een methode die x keer y uitrekent met behulp van alleen de operator '+'.",
+        "requirements": "Recursief.",
+        "skeleton": "public class Recursie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "xiwKpuHimKY"
+    },
+    {
+        "number": 278,
+        "category": "Recursie",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Schrijf een methode die een palindroom van de volgende vorm creëert (t/m de meegegeven letter): abcdefgfedcba",
+        "requirements": "Recursief.",
+        "skeleton": "public class Recursie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "xiwKpuHimKY"
+    },
+    {
+        "number": 279,
+        "category": "Recursie",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Schrijf een methode die op basis van een startbedrag, een jaarrente (in de vorm 1.05 voor 5%) en een aantal jaar het huidige geldbedrag berekent.",
+        "requirements": "Recursief.",
+        "skeleton": "public class Recursie\n{\n   public static void Main()\n   {\n      \n   }\n}",
+        "video": "xiwKpuHimKY"
+    },
+    {
+        "number": 280,
+        "category": "Recursie",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Schrijf een methode die als input een array krijgt met muntsoorten. Elk getal daarin staat voor een munt van een aantal centen. De methode berekent voor een bepaald bedrag welke munten betaald worden om zo min mogelijk munten uit te geven",
+        "requirements": "Recursief.",
+        "skeleton": "public class Recursie\n{\n   public static void Main()\n   {\n       int[] munten = {1,2,5,10,20,50};\n       bereken(munten, 96); //50(1) 20(2), 5(1), 1(1)\n      \n   }\n}",
+        "video": "xiwKpuHimKY"
+    },
+    {
+        "number": 281,
+        "category": "Recursie",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "In dit spel wordt elke beurt 1 van de 1en omhoog geplaatst. Als alle 1en boven zijn is het spel afgelopen. bereken voor een gegeven stand op hoeveel mogelijke manieren dat kan.",
+        "requirements": "Recursief.",
+        "skeleton": "public class Recursie\n{\n   public static void Main()\n   {\n       int[,] stand = { {0,0,0},\n                        {1,0,1},\n                        {0,1,0}};//12\n      \n   }\n}",
+        "video": "xiwKpuHimKY"
+    },
+    {
+        "number": 282,
+        "category": "Recursie",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Een methode heeft als input een woord en een getal x. Ergens in het woord staat een 5 geplaatst. op die plek wordt het woord gesplitst en wordt het woord zelf tussengevoegd. Dat gebeurt x keer. De laatste 5 wordt vervangen door een streepje '-'. Het resultaat wordt afgedrukt.",
+        "requirements": "Recursief.",
+        "skeleton": "public class Recursie\n{\n   public static void Main()\n   {\n      doe(\"Hoge5school\", 4); //HogeHogeHogeHogeHoge-schoolschoolschoolschoolschool\n   }\n}",
+        "video": "xiwKpuHimKY"
+    },
+    {
+        "number": 283,
+        "category": "Recursie",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Schrijf een methode die bepaalt of een druppel op plek (x,y) de rand kan bereiken. De nummers is het array geven de hoogte van de berg op die plek aan. (Denk eraan, water stroomt naar beneden ;-) )",
+        "requirements": "Recursief.",
+        "skeleton": "public class Recursie\n{\n   public static void Main()\n   {\n       int[,] berg = {  {0,1,2,1,2,3,4,5},\n                        {1,2,3,5,2,4,2,4},\n                        {0,2,4,6,7,3,5,3},\n                        {1,2,3,5,2,4,2,4},\n                        {0,2,4,6,7,3,5,3},\n                        };//12\n      doe (berg,4,1); //nee\n      doe (berg,4,2); //ja\n   }\n}",
+        "video": "xiwKpuHimKY"
+    },
+    {
+        "number": 284,
+        "category": "Recursie",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Schrijf een methode die van een binair getal (in een int opgeslagen) een normaal getal (in een int) maakt en teruggeeft.",
+        "requirements": "Recursief.",
+        "skeleton": "public class Recursie\n{\n   public static void Main()\n   {\n      int x = doe(110101); //53\n   }\n}",
+        "video": "xiwKpuHimKY"
+    },
+    {
+        "number": 285,
+        "category": "Recursie",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Een methode geeft terug of je met een reeks getallen in een array een bepaalde som kan berekenen. Elk getal mag meerdere keren gebruikt worden.",
+        "requirements": "Recursief.",
+        "skeleton": "public class Recursie\n{\n   public static void Main()\n   {\n      int[] nummers = {3, 7, 1, 8, -3};\n      doe (nummers, 4); //ja (3,1)\n      doe (nummers, 2); //nee\n      doe (nummers, 28); //ja bv (3,7,3,7,8)\n   }\n}",
+        "video": "xiwKpuHimKY"
+    },
+    {
+        "number": 286,
+        "category": "Bitwise",
+        "catnumber": "1",
+        "difficulty": "Easy",
+        "description": "Print \"Game Over\" als bool died true is. ",
+        "requirements": "nvt",
+        "skeleton": "public class Bitwise\n{\n   public static void Main()\n   {\n      bool died;\n   }\n}",
+        "video": "aEJsUOr6dGA"
+    },
+    {
+        "number": 287,
+        "category": "Bitwise",
+        "catnumber": "2",
+        "difficulty": "Easy",
+        "description": "Print \"Ok\", als bool isAlive EN bool canAttack allebei true zijn.",
+        "requirements": "nvt",
+        "skeleton": "public class Bitwise\n{\n   public static void Main()\n   {\n        bool isAlive;\n        bool canAttack;\n   }\n}",
+        "video": "aEJsUOr6dGA"
+    },
+    {
+        "number": 288,
+        "category": "Bitwise",
+        "catnumber": "3",
+        "difficulty": "Easy",
+        "description": "Print \"Attacking\", als  bool canAttack OF bool underAttack true is.",
+        "requirements": "nvt",
+        "skeleton": "public class Bitwise\n{\n   public static void Main()\n   {\n      bool canAttack;\n      bool underAttack;\n   }\n}",
+        "video": "aEJsUOr6dGA"
+    },
+    {
+        "number": 289,
+        "category": "Bitwise",
+        "catnumber": "4",
+        "difficulty": "Easy",
+        "description": "Print \"Dying\", als bool isAlive niet true is (dus geen false in je if gebruiken).",
+        "requirements": "Geen false in je if gebruiken",
+        "skeleton": "public class Bitwise\n{\n   public static void Main()\n   {\n      bool isAlive;\n   }\n}",
+        "video": "aEJsUOr6dGA"
+    },
+    {
+        "number": 290,
+        "category": "Bitwise",
+        "catnumber": "5",
+        "difficulty": "Easy",
+        "description": "Print \"Bought\", als int gold groter is dan 0 en bool inventoryFull niet true is.",
+        "requirements": "nvt",
+        "skeleton": "public class Bitwise\n{\n   public static void Main()\n   {\n      int gold;\n      bool inventoryFull;\n   }\n}",
+        "video": "aEJsUOr6dGA"
+    },
+    {
+        "number": 291,
+        "category": "Bitwise",
+        "catnumber": "6",
+        "difficulty": "Medium",
+        "description": "Gegeven de enum, check of NORTH in de walkDirection voorkomt.",
+        "requirements": "nvt",
+        "skeleton": "public class Bitwise\n{\n    [Flags]\n    ///<summary>Walk directions, combinations are possible</summary>\n    public enum Direction\n    {\n        None = 0,\n        North = 1,\n        East = 2, \n        South = 4,\n        West = 8  \n    }\n   public static void Main()\n   {\n      Direction walkDirection = Direction.North | Direction.East;\n      \n   }\n}",
+        "video": "aEJsUOr6dGA"
+    },
+    {
+        "number": 292,
+        "category": "Bitwise",
+        "catnumber": "7",
+        "difficulty": "Medium",
+        "description": "Gegeven de enum, check of WEST niet voorkomt in de waarde.",
+        "requirements": "nvt",
+        "skeleton": "public class Bitwise\n{\n    [Flags]\n    ///<summary>Walk directions, combinations are possible</summary>\n    public enum Direction\n    {\n        None = 0,\n        North = 1,\n        East = 2, \n        South = 4,\n        West = 8  \n    }\n   public static void Main()\n   {\n      Direction walkDirection = Direction.North | Direction.East;\n      \n   }\n}",
+        "video": "aEJsUOr6dGA"
+    },
+    {
+        "number": 293,
+        "category": "Bitwise",
+        "catnumber": "8",
+        "difficulty": "Medium",
+        "description": "Gegeven de enum, maak een variabele die STRENGTH en STAMINA als waarde heeft.",
+        "requirements": "nvt",
+        "skeleton": "public class Bitwise\n{\n    [Flags]\n    ///<summary>Attributes of a class</summary>\n    public enum Atrributes\n    {\n        None = 0,\n        Strength = 1,\n        Stamina = 2, \n        Intelect = 4,\n        Spirit = 8,\n        Agility = 16\n    }\n   public static void Main()\n   {\n      \n   }\n}\n",
+        "video": "aEJsUOr6dGA"
+    },
+    {
+        "number": 295,
+        "category": "Bitwise",
+        "catnumber": "9",
+        "difficulty": "Medium",
+        "description": "Print alle waardes die de mage heeft",
+        "requirements": "nvt",
+        "skeleton": "public class Bitwise\n{\n    [Flags]\n    ///<summary>Attributes of a class</summary>\n    public enum Atrributes\n    {\n        None = 0,\n        Strength = 1,\n        Stamina = 2, \n        Intelect = 4,\n        Spirit = 8,\n        Agility = 16\n    }\n   public static void Main()\n   {\n      Attributes mage = Atrributes.Stamina | Atrributes.Agility;\n      mage |= Atrributes.Spirit;\n   }\n}",
+        "video": "aEJsUOr6dGA"
+    },
+    {
+        "number": 294,
+        "category": "Bitwise",
+        "catnumber": "10",
+        "difficulty": "Medium",
+        "description": "Check alle drie de waardes van bool? canAttack",
+        "requirements": "nvt",
+        "skeleton": "public class Bitwise\n{\n   public static void Main()\n   {\n      bool? canAttack;\n   }\n}",
+        "video": "aEJsUOr6dGA"
+    },
+    {
+        "number": 296,
+        "category": "Bitwise",
+        "catnumber": "11",
+        "difficulty": "Hard",
+        "description": "Check of 32 (decimaal) onderdeel is van 10010100 (binair)",
+        "requirements": "nvt",
+        "skeleton": "public class Bitwise\n{\n   public static void Main()\n   {\n      int decimalValue = 32;\n      int binaryValue = 0b10010100;\n   }\n}",
+        "video": "aEJsUOr6dGA"
+    },
+    {
+        "number": 297,
+        "category": "Bitwise",
+        "catnumber": "12",
+        "difficulty": "Hard",
+        "description": "Voeg 3 (decimaal) toe aan 1000000 (binair)",
+        "requirements": "Druk het resultaat decimaal af",
+        "skeleton": "public class Bitwise\n{\n   public static void Main()\n   {\n       int binayValue = 0b1000000;\n   }\n}",
+        "video": "aEJsUOr6dGA"
+    },
+    {
+        "number": 298,
+        "category": "Bitwise",
+        "catnumber": "13",
+        "difficulty": "Hard",
+        "description": "Haal 31 (decimaal) van 01010101 (binair) af",
+        "requirements": "Druk het resultaat af in decimaal",
+        "skeleton": "public class Bitwise\n{\n   public static void Main()\n   {\n      int binaryValue = 0b01010101;\n   }\n}",
+        "video": "aEJsUOr6dGA"
+    },
+    {
+        "number": 299,
+        "category": "Bitwise",
+        "catnumber": "14",
+        "difficulty": "Hard",
+        "description": "Druk de uitkomst van 1001 (binair) + 0101 (binair) af in decimalen",
+        "requirements": "nvt",
+        "skeleton": "public class Bitwise\n{\n   public static void Main()\n   {\n      int binaryValue1 = 0b1001;\n      int binaryValue2 = 0b0101;\n   }\n}",
+        "video": "aEJsUOr6dGA"
+    },
+    {
+        "number": 300,
+        "category": "Bitwise",
+        "catnumber": "15",
+        "difficulty": "Hard",
+        "description": "Druk de uitkomst van 1001 (binair) - 0101 (binair) af",
+        "requirements": "Druk de uitkomst af in binair, decimaal en hexadecimaal",
+        "skeleton": "public class Bitwise\n{\n   public static void Main()\n   {\n      int binaryValue1 = 0b1001;\n      int binaryValue2 = 0b0101;      \n   }\n}",
+        "video": "aEJsUOr6dGA"
+    }
+]
