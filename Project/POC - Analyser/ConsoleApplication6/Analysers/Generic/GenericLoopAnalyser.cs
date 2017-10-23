@@ -10,7 +10,9 @@ namespace ConsoleApplication6.Analysers.Generic
 {
     class GenericLoopAnalyser
     {
-        public int getLoopAmount(CSharpSyntaxTree syntaxTree, string requirements, int amount)
+        protected ResponseService responseService = new ResponseService();
+
+        private int GetLoopAmount(CSharpSyntaxTree syntaxTree, string requirements, int amount)
         {
             var root = syntaxTree.GetRoot();
             var MyClass = root.DescendantNodes().OfType<ClassDeclarationSyntax>().First();
@@ -22,12 +24,21 @@ namespace ConsoleApplication6.Analysers.Generic
             Console.WriteLine(MyMethod.Identifier.ToString());
             Console.WriteLine(MyVariable.ToString());
 
-            foreach(var declaration in MyLoop)
+            int counter = -1;
+
+            foreach (var declaration in MyLoop)
             {
-                Console.WriteLine(declaration.ToString());
+                counter = 5;
             }
 
-            return 5;
+            return counter;
+        }
+
+        public string IsLoopingAmount(CSharpSyntaxTree syntaxTree, string requirements, int amount)
+        {
+            int loopedAmount = GetLoopAmount(syntaxTree, requirements, amount);
+            bool status = loopedAmount == 5 ? true : false;
+            return responseService.CreateRequirementOutput("requirements['name']", "requirements['description']", status, "");
         }
     }
 }

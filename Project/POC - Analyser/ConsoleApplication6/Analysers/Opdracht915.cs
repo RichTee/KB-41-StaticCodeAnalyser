@@ -19,9 +19,7 @@ namespace ConsoleApplication6.Analysers
 
         public string Analyse(CSharpSyntaxTree syntaxTree, string requirements)
         {
-            // check loop 5 times
-            int result = genericLoopAnalyser.getLoopAmount(syntaxTree, requirements, 5);
-            return result == 5 ? "is 5" : "not 5";
+            return genericLoopAnalyser.IsLoopingAmount(syntaxTree, requirements, 5);
         }
     }
 }
