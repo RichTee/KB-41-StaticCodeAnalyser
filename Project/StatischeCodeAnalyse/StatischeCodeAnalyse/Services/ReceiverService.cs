@@ -16,9 +16,6 @@ namespace StatischeCodeAnalyse.Services
         {
             Dictionary<string, string> argDictionary = ArgToDictionary(args);
             receiverValidator.IsRequired(argDictionary);
-		    Console.WriteLine(argDictionary["code"]);
-            Console.WriteLine(argDictionary["requirements"]);
-            Console.WriteLine(argDictionary["savelocation"]);
             return argDictionary;
         }
 
