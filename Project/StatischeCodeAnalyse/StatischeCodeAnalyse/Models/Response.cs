@@ -1,4 +1,5 @@
-﻿using StatischeCodeAnalyse.Enums;
+﻿using Newtonsoft.Json;
+using StatischeCodeAnalyse.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,12 @@ namespace StatischeCodeAnalyse.Models
 {
     class Response
     {
-        public StatusCode StatusCode { get; set; }
-        public string Message { get; set; }
-        public string Additional { get; set; }
+        [JsonProperty]
+        private StatusCode StatusCode { get; set; }
+        [JsonProperty]
+        private string Message { get; set; }
+        [JsonProperty]
+        private string Additional { get; set; }
 
         public Response(StatusCode StatusCode, string Message, string Additional)
         {

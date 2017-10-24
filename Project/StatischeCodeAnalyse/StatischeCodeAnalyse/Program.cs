@@ -3,6 +3,7 @@ using StatischeCodeAnalyse.Services;
 using StatischeCodeAnalyse.Services.Analyzer;
 using System;
 using Newtonsoft.Json;
+using StatischeCodeAnalyse.Models;
 
 namespace StatischeCodeAnalyse
 {
@@ -30,7 +31,7 @@ namespace StatischeCodeAnalyse
                 string[] requirements = requirementService.ProcessRequirements(argDictionary["requirements"]);
 
                 // Compile the code and try to analyze for requirements
-                string[] analysis = analyseService.CompileAndAnalyze(argDictionary["code"], requirements);
+                List<DiagnosticReport> analysis = analyseService.CompileAndAnalyze(argDictionary["code"], requirements);
                 Console.WriteLine(JsonConvert.SerializeObject(responseService.Success(JsonConvert.SerializeObject(analysis))));
             }
             catch (Exception exc)

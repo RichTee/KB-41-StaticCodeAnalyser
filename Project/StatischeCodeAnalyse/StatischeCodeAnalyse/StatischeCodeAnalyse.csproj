@@ -32,6 +32,7 @@
   <ItemGroup>
     <Compile Include="Enums\Enums.cs" />
     <Compile Include="Exceptions\InputException.cs" />
+    <Compile Include="Models\DiagnosticReport.cs" />
     <Compile Include="Models\Response.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Services\Analyzer\AnalyseService.cs" />

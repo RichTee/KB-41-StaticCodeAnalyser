@@ -1,4 +1,5 @@
 ﻿using Microsoft.CodeAnalysis.CSharp;
+using StatischeCodeAnalyse.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,13 +12,14 @@ namespace StatischeCodeAnalyse.Services.Analyzer
     {
         private CompilerService compilerService = new CompilerService();
 
-        public string[] CompileAndAnalyze(string sourceCode, string[] requirements)
+        public List<DiagnosticReport> CompileAndAnalyze(string sourceCode, string[] requirements)
         {
-            string[] compiledDiagnostics = compilerService.CompileAndGetDiagnostic(sourceCode);
-            string[] analyzedResult = Analyze(sourceCode, requirements);
+            List<DiagnosticReport> compiledDiagnostics = compilerService.CompileAndGetDiagnostic(sourceCode);
+            // string[] analyzedResult = Analyze(sourceCode, requirements);
             return compiledDiagnostics;
         }
 
+        // Do our own static code analysis here, the code within is just a setup and can be safely modified.
         private string[] Analyze(string sourceCode, string[] requirements)
         {
             // https://docs.microsoft.com/en-us/roslyn-dotnet-api/api/microsoft.codeanalysis.csharp.csharpsyntaxtree?view=codeanalysiscs-2.3.1

@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using StatischeCodeAnalyse.Models;
 
 namespace StatischeCodeAnalyse.Services.Analyzer
 {
@@ -37,9 +38,9 @@ namespace StatischeCodeAnalyse.Services.Analyzer
             }
         }
 
-        private string[] GetCompilerDiagnostic(EmitResult result)
+        private List<DiagnosticReport> GetCompilerDiagnostic(EmitResult result)
         {
-            List<string> diagnostics = new List<string>();
+            List<DiagnosticReport> diagnostics = new List<DiagnosticReport>();
 
             if (!result.Success)
             {
@@ -49,8 +50,7 @@ namespace StatischeCodeAnalyse.Services.Analyzer
 
                 foreach (var diag in failures)
                 {
-                    diagnostics.Add(String.Format("Severity: {0}, {1}: {2}", diag.Severity, diag.Id, diag.GetMessage()));
-                    Console.WriteLine("Severity: {0}, {1}: {2}", diag.Severity, diag.Id, diag.GetMessage());
+                    diagnostics.Add(new DiagnosticReport(diag.GetMessage(), diag.Severity.ToString(), diag.Id));
                 }
             }
             else
@@ -58,13 +58,13 @@ namespace StatischeCodeAnalyse.Services.Analyzer
                 Console.WriteLine("No Diagnostics from Compiled Result");
             }
 
-            return diagnostics.ToArray();
+            return diagnostics;
         } 
 
-        public string[] CompileAndGetDiagnostic(string sourceCode)
+        public List<DiagnosticReport> CompileAndGetDiagnostic(string sourceCode)
         {
             EmitResult compiledResult = Compile(sourceCode);
-            string[] diagnostic = GetCompilerDiagnostic(compiledResult);
+            List<DiagnosticReport> diagnostic = GetCompilerDiagnostic(compiledResult);
             return diagnostic;
         }
     }
