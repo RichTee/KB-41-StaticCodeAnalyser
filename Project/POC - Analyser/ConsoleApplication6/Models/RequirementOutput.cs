@@ -10,13 +10,13 @@ namespace ConsoleApplication6.Models
     class RequirementOutput
     {
         [JsonProperty]
-        private string name;
+        private string name { get; set; }
         [JsonProperty]
-        private string description;
+        private string description { get; set; }
         [JsonProperty]
-        private bool status;
+        private bool status { get; set; }
         [JsonProperty]
-        private string additional_information;
+        private string additional_information { get; set; }
 
         public RequirementOutput() { }
 
@@ -26,50 +26,6 @@ namespace ConsoleApplication6.Models
             this.description = description;
             this.status = status;
             this.additional_information = additional_information;
-        }
-
-        public string GetName()
-        {
-            return name;
-        }
-
-        public bool SetName(string name)
-        {
-            this.name = name;
-            return true;
-        }
-
-        public string GetDescription()
-        {
-            return description;
-        }
-
-        public bool SetDescription(string description)
-        {
-            this.description = description;
-            return true;
-        }
-
-        public bool GetStatus()
-        {
-            return status;
-        }
-
-        public bool SetStatus(bool status)
-        {
-            this.status = status;
-            return true;
-        }
-
-        public string GetAdditionalInformation()
-        {
-            return additional_information;
-        }
-
-        public bool SetAdditionalInformation(string additional_information)
-        {
-            this.additional_information = additional_information;
-            return true;
         }
     }
 }
