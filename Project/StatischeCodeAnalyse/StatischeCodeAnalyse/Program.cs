@@ -11,7 +11,7 @@ namespace StatischeCodeAnalyse
     {
         private static ReceiverService receiverService = new ReceiverService();
         private static RequirementService requirementService = new RequirementService();
-        private static AnalyseService analyseService = new AnalyseService();
+        private static AnalyserService analyseService = new AnalyserService();
         private static FileService fileService = new FileService();
         private static ResponseService responseService = new ResponseService();
 

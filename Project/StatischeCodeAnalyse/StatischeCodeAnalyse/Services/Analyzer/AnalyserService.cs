@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace StatischeCodeAnalyse.Services.Analyzer
 {
-    class AnalyseService
+    class AnalyserService
     {
         private CompilerService compilerService = new CompilerService();
 

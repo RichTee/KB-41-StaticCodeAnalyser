@@ -35,7 +35,7 @@
     <Compile Include="Models\DiagnosticReport.cs" />
     <Compile Include="Models\Response.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Services\Analyzer\AnalyseService.cs" />
+    <Compile Include="Services\Analyzer\AnalyserService.cs" />
     <Compile Include="Services\Analyzer\CompilerService.cs" />
     <Compile Include="Services\ReceiverService.cs" />
     <Compile Include="Services\FileService.cs" />
