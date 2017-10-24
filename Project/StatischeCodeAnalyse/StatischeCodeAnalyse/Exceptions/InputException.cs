@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace StatischeCodeAnalyse.Exceptions
 {
+    [Serializable]
     class InputException : Exception
     {
         public InputException()
