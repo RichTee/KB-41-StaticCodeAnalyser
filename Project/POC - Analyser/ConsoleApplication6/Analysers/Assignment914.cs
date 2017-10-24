@@ -8,8 +8,9 @@ using ConsoleApplication6.Analysers.Generic;
 
 namespace ConsoleApplication6.Analysers
 {
-    class Opdracht915 : IAnalyser
+    class Assignment914 : IAnalyser
     {
+        protected ResponseService responseService = new ResponseService();
         protected GenericLoopAnalyser genericLoopAnalyser = new GenericLoopAnalyser();
 
         public string Analyse(CSharpCompilation compiledCode, string requirements)
@@ -19,7 +20,9 @@ namespace ConsoleApplication6.Analysers
 
         public string Analyse(CSharpSyntaxTree syntaxTree, string requirements)
         {
-            return genericLoopAnalyser.IsLoopingAmount(syntaxTree, requirements, 5);
+            // normally you want to digest the information in the requirements json and dynamically call functions instead of hardcoded.
+            bool result = genericLoopAnalyser.HasLoop(syntaxTree);
+            return responseService.CreateRequirementOutput("requirements['name']", "requirements['description']", result, "");
         }
     }
 }

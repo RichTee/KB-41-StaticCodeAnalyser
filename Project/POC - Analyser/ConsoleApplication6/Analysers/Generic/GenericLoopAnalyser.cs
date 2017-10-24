@@ -10,19 +10,13 @@ namespace ConsoleApplication6.Analysers.Generic
 {
     class GenericLoopAnalyser
     {
-        protected ResponseService responseService = new ResponseService();
-
-        private int GetLoopAmount(CSharpSyntaxTree syntaxTree, string requirements, int amount)
+        private int GetLoopAmount(CSharpSyntaxTree syntaxTree, int amount)
         {
             var root = syntaxTree.GetRoot();
             var MyClass = root.DescendantNodes().OfType<ClassDeclarationSyntax>().First();
             var MyMethod = MyClass.DescendantNodes().OfType<MethodDeclarationSyntax>().First();
             var MyVariable = MyMethod.DescendantNodes().OfType<VariableDeclarationSyntax>().First();
             var MyLoop = MyMethod.DescendantNodes().OfType<ForStatementSyntax>();
-
-            Console.WriteLine(MyClass.Identifier.ToString());
-            Console.WriteLine(MyMethod.Identifier.ToString());
-            Console.WriteLine(MyVariable.ToString());
 
             int counter = -1;
 
@@ -34,11 +28,23 @@ namespace ConsoleApplication6.Analysers.Generic
             return counter;
         }
 
-        public string IsLoopingAmount(CSharpSyntaxTree syntaxTree, string requirements, int amount)
+        public bool HasLoop(CSharpSyntaxTree syntaxTree)
         {
-            int loopedAmount = GetLoopAmount(syntaxTree, requirements, amount);
+            var root = syntaxTree.GetRoot();
+            // These variables can be put into one, for examplary purposes they have been seperated.
+            var MyClass = root.DescendantNodes().OfType<ClassDeclarationSyntax>().First();
+            var MyMethod = MyClass.DescendantNodes().OfType<MethodDeclarationSyntax>().First();
+            var MyLoop = MyMethod.DescendantNodes().OfType<ForStatementSyntax>();
+
+            return MyLoop.Count() > 0;
+        }
+
+
+        public bool IsLoopingAmount(CSharpSyntaxTree syntaxTree, int amount)
+        {
+            int loopedAmount = GetLoopAmount(syntaxTree, amount);
             bool status = loopedAmount == 5 ? true : false;
-            return responseService.CreateRequirementOutput("requirements['name']", "requirements['description']", status, "");
+            return status;
         }
     }
 }
