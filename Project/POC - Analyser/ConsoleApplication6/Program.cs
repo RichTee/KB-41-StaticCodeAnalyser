@@ -29,10 +29,24 @@ namespace ConsoleApplication6
             string id = "914";
             string source = @"namespace ConsoleApplication3
 {
-    public class Output { public statitc void Main() { string test = 10; for (int i = 0; i < 5; i++) { Console.WriteLine(1);}} }
+    public class Output { public static void Main() { string test = 10; for (int i = 0; i < 5; i++) { Console.WriteLine(1);}} }
 }
 ";
-            string requirements = "ownRequirementsFormat";
+            string requirements = @"{
+  ""requirement_one"": {
+    ""requirement_name"": ""\""Name of Requirement\"""",
+    ""requirement_description"": ""\""Description of Requirement\"""",
+    ""status"": ""false"",
+    ""additional_information"": ""\""Failure indicated on ln 12\"""",
+    """": { }
+        },
+  ""requirement_two"": {
+    ""requirement_name"": ""\""Name of Requirement\"","",
+    ""requirement_description"": ""\""Description of Requirement\"","",
+    ""status\"""": ""true""
+  }
+}
+";
             string result = AnalyseAssignment(id, source, requirements);
             Console.WriteLine(result);
             Console.ReadKey();
