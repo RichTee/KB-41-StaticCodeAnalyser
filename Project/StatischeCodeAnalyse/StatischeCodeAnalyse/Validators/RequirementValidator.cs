@@ -20,8 +20,7 @@ namespace StatischeCodeAnalyse.Validators
 
         public bool Validate(string unvalidated)
         {
-            // TODO: Make it a JSON object and validate if the values within it are as expected
-
+            // TODO: Validate this properly, this file is used by RequirementService to validate json format and integrity.
             return true;
         }
     }

@@ -25,7 +25,7 @@ namespace StatischeCodeAnalyse.Services.Analyzer
             // https://docs.microsoft.com/en-us/roslyn-dotnet-api/api/microsoft.codeanalysis.csharp.csharpsyntaxtree?view=codeanalysiscs-2.3.1
             var parsedSyntaxTree = CSharpSyntaxTree.ParseText(sourceCode);
 
-            // TODO: Analyze for requirements
+            // TODO: Analyze for requirements, see POC document and POC project for more information.
             string[] analyzedResult = new String[1];
 
             return analyzedResult;
